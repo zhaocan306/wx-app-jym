@@ -10,7 +10,7 @@
   </view>
   <view class='user-name'>
     <text class='name'>用户名</text>
-    <clearInput style='flex:1;' inputValue="家有马" inputHint='请输入昵称'/>
+    <clearInput style='flex:1;margin-left:32rpx;' inputValue="家有马" inputHint='请输入昵称'/>
   </view>
   <text class='footer'>以汉字或者字母开头，限4-16个字符</text>
   <view class='edit-btn'>

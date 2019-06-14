@@ -1,2 +1,5 @@
 <!-- 自定义顶部栏 -->
 <navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">会员等级</view></navbar>
+<view class='member'>
+  <image wx:for="{{imageList}}" wx:key src='{{item.img}}'></image>
+</view>

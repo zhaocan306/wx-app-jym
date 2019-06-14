@@ -1,0 +1,38 @@
+/* pages/message/wallet/wallet.wxss */
+.wallet {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wallet image {
+  width: 224rpx;
+  height: 224rpx;
+  margin-top: 44rpx;
+}
+.wallet .name {
+  font-size: 24rpx;
+  color: #000000;
+}
+.wallet .money {
+  height: 84rpx;
+  line-height: 84rpx;
+  font-family: DINAlternate-Bold;
+  font-size: 72rpx;
+  color: #000000;
+  letter-spacing: -5rpx;
+  display: block;
+  margin-top:28rpx;
+  margin-bottom:212rpx;
+}
+.wallet .btn {
+  width: 360rpx;
+  height: 88rpx;
+  background: #0099FF;
+  border-radius: 4rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -21,10 +21,19 @@ Page({
       this.getEditHead()
     }
     if(index === 2) {
-      this.getEditName()
+      wx.navigateTo({
+        url: '/pages/message/edit-name/edit-name'
+      })
     }
     if(index === 4) {
-      this.getEditPhone()
+      wx.navigateTo({
+        url: '/pages/message/edit-phone/edit-phone'
+      })
+    }
+    if(index === 5) {
+      wx.navigateTo({
+        url: '/pages/message/edit-member/edit-member'
+      })
     }
   },
   // 修改用户头像
@@ -35,22 +44,10 @@ Page({
       }
     })
   },
-  // 修改用户昵称
-  getEditName() {
-    wx.navigateTo({
-      url: '/pages/message/edit-name/edit-name'
-    })
-  },
   // 选择性别
   PickerChange(e) {
     this.setData({
       type: e.detail.value
-    })
-  },
-  // 修改手机号码
-  getEditPhone() {
-    wx.navigateTo({
-      url: '/pages/message/edit-phone/edit-phone'
     })
   }
 })

@@ -1,0 +1,9 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">我的钱包</view></navbar>
+<!-- 内容 -->
+<view class='wallet'>
+  <image src='/images/png/icon-money.png'></image>
+  <text class='name'>我的钱包</text>
+  <text class='money'>￥3.2</text>
+  <view class='btn'>充值</view>
+</view>

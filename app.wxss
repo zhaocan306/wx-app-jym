@@ -51,7 +51,7 @@ input ::-webkit-input-placeholder {
 .curr {
   font-size: 24rpx!important;
   letter-spacing: -6rpx;
-  padding-top:8rpx;
+  padding-top:5rpx;
 }
 .decimal {
   font-size: 24rpx!important;

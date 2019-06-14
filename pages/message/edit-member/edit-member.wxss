@@ -1,1 +1,15 @@
 /* pages/message/edit-member/edit-member.wxss */
+.member {
+  position: relative;
+  height: 100%;
+  margin: 32rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.member image {
+  height: 360rpx;
+  width: 690rpx;
+}
+.member image:nth-child(2) {
+  margin: 24rpx 0;
+}

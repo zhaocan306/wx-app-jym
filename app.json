@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/message/edit-member/edit-member",
     "pages/index/index/index",
     "pages/login/index/index",
     "pages/login/login/login",
@@ -16,7 +15,9 @@
     "pages/order/service/service",
     "pages/message/edit/edit",
     "pages/message/edit-name/edit-name",
-    "pages/message/edit-phone/edit-phone"
+    "pages/message/edit-phone/edit-phone",
+    "pages/message/edit-member/edit-member",
+    "pages/message/wallet/wallet"
   ],
   "window": {
     "backgroundTextStyle": "light",

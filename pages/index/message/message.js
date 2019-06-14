@@ -30,6 +30,18 @@ Component({
       wx.navigateTo({
         url: '/pages/message/edit/edit'
       })
+    },
+    // 跳转至会员页面
+    toMember() {
+      wx.navigateTo({
+        url: '/pages/message/edit-member/edit-member'
+      })
+    },
+    // 跳转到我的钱包
+    toWallet() {
+      wx.navigateTo({
+        url: '/pages/message/wallet/wallet'
+      })
     }
   }
 })
