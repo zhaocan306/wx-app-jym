@@ -22,7 +22,7 @@
   font-family: DINAlternate-Bold;
   font-size: 72rpx;
   color: #000000;
-  letter-spacing: -5rpx;
+  letter-spacing: -3rpx;
   display: block;
   margin-top:28rpx;
   margin-bottom:212rpx;
@@ -35,4 +35,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  color: #FFFFFF;
+}
+.wallet .range {
+  margin-top: 40rpx;
+  background: #EFEFF4!important;
+  color: #0099FF!important;
+}
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  bottom:48rpx;
+  left:50%;
+  margin-left:-76rpx;
+
+}
+.option .option-img {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 8rpx;
+  margin-top: 0rpx;
+}
+.option .option-text {
+  font-size: 24rpx;
+  color: #8F8E93;
 }
