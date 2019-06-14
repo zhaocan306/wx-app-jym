@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tab_service-default@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_tab_service-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="30" height="30"></rect>
+        <g id="service-copy" transform="translate(5.000000, 5.000000)" fill-rule="nonzero" stroke="#8F8E93">
+            <path d="M10.5,0.807248157 L0.606226067,13.3477709 L4.29388357,19.5 L16.7061164,19.5 L20.3937739,13.3477709 L10.5,0.807248157 Z" id="Polygon" transform="translate(10.500000, 10.000000) scale(1, -1) translate(-10.500000, -10.000000) "></path>
+            <polyline id="Path-4" stroke-linecap="square" points="9.10989411 3.28665026 14.6166951 3.28665026 16.281944 6.00972774 11.3339082 12.4956315"></polyline>
+            <path d="M6.06131207,8.5523932 L8,11" id="Line-2" stroke-linecap="square"></path>
+        </g>
+        <rect id="Rectangle-2-Copy" fill-rule="nonzero" x="0" y="0" width="30" height="30"></rect>
+    </g>
+</svg>

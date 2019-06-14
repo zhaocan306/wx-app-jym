@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_service_地址@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="96.1433802%" x2="50%" y2="-2.77555756e-15%" id="linearGradient-1">
+            <stop stop-color="#2CB4AE" offset="0%"></stop>
+            <stop stop-color="#1AB7A7" offset="97.6968931%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_service_地址" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40" rx="4"></rect>
+        <g id="dizhi" transform="translate(8.000000, 6.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M10.5,0 C4.09175258,0 0,4.94334616 0,11.0699217 C0,17.1964973 8.93762887,26 10.5,26 C12.0623711,26 21,17.1964973 21,11.0699217 C21,4.94334616 16.9082474,4.90224522e-16 10.5,0 Z M10.5,14.4160807 C7.97061856,14.4160807 5.92474227,12.46013 5.92474227,10.0419265 C5.92474227,7.62372297 7.97061856,5.66777232 10.5,5.66777232 C13.0293814,5.66777232 15.078866,7.62372297 15.078866,10.0419265 C15.078866,12.4566804 13.0329897,14.4160807 10.5,14.4160807 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

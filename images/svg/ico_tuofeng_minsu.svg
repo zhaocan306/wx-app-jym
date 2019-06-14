@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_minsu@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="12.1484367%" x2="50%" y2="92.252159%" id="linearGradient-1">
+            <stop stop-color="#FF8040" offset="0%"></stop>
+            <stop stop-color="#FF5E18" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M22,4.36090978 C22,4.10897276 21.8565217,3.89302676 21.6293478,3.78505373 L13.2478261,0.0539865002 C13.0804348,-0.0179955001 12.901087,-0.0179955001 12.7456522,0.0539865002 L4.38804347,3.78505373 C4.16086954,3.88102973 4.01739129,4.10897276 4.01739129,4.36090978 L4.01739129,4.67283178 C4.01739129,4.9367658 4.23260869,5.15271181 4.49565218,5.15271183 L6.02608696,5.15271183 L6.02608696,12.9627593 L0.621739115,12.9627593 C0.274999983,12.9627593 -2.32835431e-08,13.2386903 0,13.5866033 L0,14.3544114 C0,14.7023244 0.275000006,14.9782554 0.621739115,14.9782554 L0.99239129,14.9782554 L0.99239129,23.376156 C0.99239129,23.724069 1.2673913,24 1.61413043,24 L19.3456522,24 C19.6923913,24 19.9673913,23.724069 19.9673913,23.376156 L19.9673913,5.15271183 L21.5217391,5.15271183 C21.7847826,5.15271183 22,4.9367658 22,4.67283178 L22,4.36090978 Z M6.02608696,21.0007498 L3.01304348,21.0007498 L3.01304348,14.9782554 L6.02608696,14.9782554 L6.02608696,21.0007498 Z M7.98695652,6.96425895 L11.9804348,6.96425895 L11.9804348,10.9712572 L7.98695652,10.9712572 L7.98695652,6.96425895 Z M12.0282609,20.0169957 L8.0347826,20.0169957 L8.0347826,16.0099975 L12.0282609,16.0099975 L12.0282609,20.0169957 Z M17.9706522,19.9930017 L13.9891304,19.9930017 L13.9891304,15.9860035 L17.9826087,15.9860035 L17.9826087,19.9930017 L17.9706522,19.9930017 Z" id="path-3"></path>
+        <filter x="-29.5%" y="-22.9%" width="159.1%" height="154.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.794722577   0 0 0 0 0.243428537   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_minsu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="minsu" transform="translate(8.000000, 8.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,57 @@
+<!-- 自定义顶部栏 -->
+<view class='cu-custom'>
+  <view class="cu-bar fixed" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+      <text class='cuIcon-back bg-back'></text>
+    </navigator>
+    <view class='content text-white' style='top:{{StatusBar}}px;'>立即缴费</view>
+  </view>
+</view>
+<view class='payment'>
+  <!-- 背景图 -->
+  <image class='bg-payment' src='/images/svg/img_pay.jpg'></image>
+  <view class='cu-payment' style='top:{{CustomBar}}px;'>
+    <text class='title'>水费</text>
+    <view class='card'>
+      <view class='form-group'>
+        <image src='/images/svg/icon_service_company.svg'></image>
+        <view class='content'>
+          <text class='label'>缴费单位</text>
+          <text class='name'>维也纳国际酒店</text>
+        </view>
+        <text class='cuIcon-right arrow'></text> 
+      </view>
+      <view class='form-group'>
+        <image src='/images/svg/icon_service_home.svg'></image>
+        <view class='content'>
+          <text class='label'>户号</text>
+          <text class='name'>12345</text>
+        </view>
+      </view>
+      <view class='form-group'>
+        <image src='/images/svg/icon_service_name.svg'></image>
+        <view class='content'>
+          <text class='label'>用户名</text>
+          <text class='name'>家有马</text>
+        </view>
+      </view>
+      <view class='form-group'>
+        <image src='/images/svg/icon_service_address.svg'></image>
+        <view class='content'>
+          <text class='label'>住址</text>
+          <text class='name'>德思勤广场A7栋1207</text>
+        </view>
+      </view>
+      <view class='form-group'>
+        <image src='/images/svg/icon_service_money.svg'></image>
+        <view class='content'>
+          <text class='label'>金额</text>
+          <text class='name'>￥268</text>
+        </view>
+      </view>
+      <view class='form-footer'>
+        <button class='form-btn'>立即缴费</button>
+      </view>
+    </view>
+  </view>
+</view>

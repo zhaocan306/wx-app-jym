@@ -1,0 +1,59 @@
+<!-- 自定义顶部栏 -->
+<view class='cu-custom'>
+  <view class="cu-bar fixed" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+      <text class='cuIcon-back'></text>
+    </navigator>
+    <view class='content text-white' style='top:{{StatusBar}}px;'></view>
+  </view>
+</view>
+<view class='detail'>
+  <!-- 轮播图 -->
+  <swiper class='detail-swiper' indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key>
+      <image class='' src="{{item}}" mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+  <view class='detail-list'>
+    <text class='name'>统一冰红茶</text>
+    <text class='sale'>销售1256</text>
+    <view class='price'>
+      <view class='goods-price'>
+        <text class='curr'>￥</text>
+        <text>3</text>
+        <text class='decimal'>.00</text>
+      </view>
+      <view class='goods-price member'>
+        <text class='curr'>￥</text>
+        <text>2</text>
+        <text class='decimal'>.7</text>
+        <image class='vip' src='/images/svg/ico_vip.svg'></image>
+      </view>
+      <text class='goods-change' bindtap='chooseNorms'>规格</text>
+    </view>
+  </view>
+  <view class='detail-border'></view>
+  <view class='detail-content'>
+    <text class='title'>商品详情</text>
+    <view class='item'>
+      <text>品牌</text>
+      <text class='range'>统一</text>
+    </view>
+    <view class='item'>
+      <text>产地</text>
+      <text class='range'>中国</text>
+    </view>
+    <view class='item'>
+      <text>规格</text>
+      <text class='range'>300ml</text>
+    </view>
+    <view class='item'>
+      <text>单位</text>
+      <text class='range'>瓶</text>
+    </view>
+  </view>
+</view>
+<!-- 下面的购物车 -->
+<Cart isCart="{{isCart}}" bind:show="onShowCart" bind:hide="onHideCart"/>
+<!-- 规格选择 -->
+<Specs wx:if="{{isSpecs}}" isShow="{{isSpecs}}" bind:confirm="confirmSpecs" bind:cancel="cancelSpecs"/>

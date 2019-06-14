@@ -1,0 +1,40 @@
+<!-- 预约发票 -->
+<view class='form-nav'>
+  <view class='form-group'>
+    <label>发票类型</label>
+    <view class='from-item'>
+      <picker class='value from-input' bindchange="PickerChange" value="{{index}}" range="{{receiptType}}">
+        <view class="picker">
+          {{receiptType[type]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>发票金额</label>
+    <view class='from-item'>
+      <input class='value from-input' type='number' placeholder='请输入发票金额' placeholder-style="color: #C7C7CC;" value='{{receipt_price}}'></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>发票抬头</label>
+    <view class='from-item'>
+      <input class='value from-input' placeholder='请输入发票抬头' placeholder-style="color: #C7C7CC;" value='{{receipt_head}}'></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>发票税号</label>
+    <view class='from-item'>
+      <input class='value from-input' type='number' placeholder='请输入发票税号' placeholder-style="color: #C7C7CC;" value='{{receipt_num}}'></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>备注</label>
+    <view class='from-item form-textarea'>
+      <textarea placeholder='请输入备注' placeholder-style="color: #C7C7CC;font-size:32rpx;" value='{{remarks}}' maxlength='-1'></textarea>
+    </view>
+  </view>
+  <view class='form-footer'>
+    <button class='form-btn' bindtap='toReceipt'>预约发票</button>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+<!--pages/service/complaint/complint.wxml-->
+<text class='introduce'>尊敬的客人,您好! 我是酒店总经理，住店过程中您遇到的任何问题,都可以反馈给我,我会第一时间帮您解决。祝您住店愉快!</text>
+<view class='form-nav'>
+  <view class='form-group'>
+    <label>投诉日期</label>
+    <view class='from-item'>
+      <picker class='value from-input' mode="date" value="{{day}}" start="2019-06-01" end="2020-09-01" bindchange="DateChange">
+        <view class="picker">
+          {{day}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>投诉时间</label>
+    <view class='from-item'>
+      <picker class='value from-input' mode="time" value="{{time}}" start="00:00" end="24:00" bindchange="TimeChange">
+        <view class="picker">
+          {{time}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>投诉类型</label>
+    <view class='from-item'>
+      <picker class='value from-input' bindchange="PickerChange" value="{{index}}" range="{{complaintType}}">
+        <view class="picker">
+          {{complaintType[type]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>投诉内容</label>
+    <view class='from-item'>
+      <picker class='value from-input' bindchange="PickerChange" value="{{index}}" range="{{complaintType}}">
+        <view class="picker">
+          {{complaintType[complaintContent]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-footer'>
+    <button class='form-btn'>投诉</button>
+  </view>
+</view>

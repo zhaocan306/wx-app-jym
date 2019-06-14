@@ -1,0 +1,49 @@
+/* pages/message/edit/edit.wxss */
+page {
+  background: #F8F8F8;
+}
+.edit {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+/* 列表 */
+.edit-list {
+  margin: 0 30rpx 2rpx 30rpx;
+  min-height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.10);
+}
+.range {
+  margin: 0!important;
+}
+.edit-list .name {
+  font-size: 32rpx;
+  color: #000000;
+}
+.edit-list .footer {
+  display: flex;
+  align-items: center;
+}
+.edit-list .footer .portrait {
+  width: 132rpx;
+  height: 132rpx;
+  margin: 34rpx 64rpx;
+}
+.edit-list .footer .tip {
+  font-size: 30rpx;
+  color: #ADADAD;
+}
+.edit-list .footer .icon {
+  width: 48rpx;
+  height: 48rpx;  
+}
+.address {
+  padding: 0 30rpx;
+  background: #fff;
+  margin-top: 24rpx;
+}

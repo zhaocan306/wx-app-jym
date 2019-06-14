@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_rexiao@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.4874458%" id="linearGradient-1">
+            <stop stop-color="#FF6C49" offset="0%"></stop>
+            <stop stop-color="#FD3F43" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M4.80700388,0 C6.51704746,0.53063846 8.12194104,2.39042538 8.96657342,4.32102065 C9.24791662,4.96394433 9.60324991,6.1411549 9.50911723,7.25928652 C9.4230215,8.28180688 9.01415882,9.27360363 8.87612433,10.1975524 C8.90676517,10.1745897 10.3969314,8.77204059 10.4133569,7.25928652 C10.8490764,8.11671544 11.203539,9.34145161 10.8655019,10.6296353 C10.4482506,12.2198064 8.94686617,13.7523868 7.15804381,14 C7.46607635,13.7056294 7.84428145,10.882145 6.5250844,10.2839466 C6.55004915,11.3628576 5.88572893,11.7345173 5.43996329,12.3580147 C5.17106062,12.3188741 3.65145906,10.1566996 4.26442658,8.72840346 C1.67838981,10.5472576 3.04699731,12.8432718 3.36017015,13.9135738 C2.98954992,13.8852345 0.721407706,13.5683172 0.104857042,10.3703727 C-0.913205828,5.08968712 5.84283175,4.53824621 4.80700388,0 Z" id="path-3"></path>
+        <filter x="-59.1%" y="-39.3%" width="218.2%" height="192.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_rexiao" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-7" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="20" height="20" rx="4"></rect>
+        <g id="rexiao" transform="translate(5.000000, 2.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

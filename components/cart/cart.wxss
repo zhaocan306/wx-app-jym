@@ -1,0 +1,185 @@
+/* 下面的结算弹窗 */
+.cart {
+  width:690rpx;
+  height:104rpx;
+  background:#fff;
+  position:fixed;
+  left: 50%;
+  margin-left: -345rpx;
+  bottom:0;
+  z-index: 1025;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  border-radius: 52rpx;
+  background: #3D3D3F;
+}
+.cart image {
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: -45rpx;
+  margin-left: 15rpx;
+}
+.cart .cart-tip {
+  display: flex;
+  flex-direction: column;
+  margin-right: 126rpx;
+  color: #FFFFFF;
+}
+.cart-tip .title {
+  font-size:32rpx;
+  font-family: PingFangSC-Medium;
+  opacity: 0.4;
+  line-height: 44rpx;
+}
+.cart-tip .item {
+  opacity: 0.3;
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.cart .cart-btn {
+  width:200rpx;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:0 52rpx 52rpx 0;
+  background:#696969;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-family: PingFangSC-Semibold;
+  font-size: 32rpx;
+}
+.cart .success {
+  background:linear-gradient(to right, #0099FF, #3642FF)!important;
+  color: #fff!important;
+  opacity: 1!important;
+}
+/* 购物车 */
+.hide{
+  display: none;
+}
+.car-detail{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1024;
+  left: 0;
+  bottom: 0;
+}
+.car-detail .mask {
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.5);
+}
+.car-detail .car-list {
+  width: 100%;
+  height: 724rpx;
+  position: absolute;
+  overflow-y: auto;
+  left: 0;
+  bottom: -724rpx;
+  z-index: 1024;
+  background: #fff;
+  transition: .5s all;
+}
+.car-detail .car-list .car-tips {
+  height: 52rpx;
+  background: #0099FF;
+  font-family: PingFangSC-Semibold;
+  font-size: 24rpx;
+  color: rgba(255,255,255,0.80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car-detail .translate-y{
+  bottom: 0rpx;
+}
+.car-detail .car-list .title {
+  height: 84rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:0 1rpx 0 0 #EFEFF4;
+  padding: 0 30rpx;
+}
+.title .name {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #333333;
+  font-weight:600;
+} 
+.title .clean {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.title .clean text {
+  font-size: 24rpx;
+  color: #333333;
+} 
+.car-detail .car-list .content {
+  height: 184rpx;
+  margin: 0 30rpx;
+  display: flex;
+  align-items: center;
+}
+.car-detail .car-list .content .goods-img {
+  width: 120rpx;
+  height: 120rpx;
+}
+.car-detail .car-list .content .goods-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24rpx;
+  border-bottom:2rpx solid #EFEFF4;
+  position:relative;
+}
+.goods-list .name {
+  line-height: 44rpx;
+  height: 44rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 16rpx;
+}
+.goods-list .car-btn {
+  display:flex;
+  align-items:center;
+  position:absolute;
+  bottom:24rpx;
+  right:0;
+}
+.car-btn image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.car-btn .text {
+  font-size: 32rpx;
+  color: #2E2E2E;
+  width: 20rpx;
+  padding: 0 16rpx;
+}
+.car-footer {
+  height: 38rpx;
+  margin: 12rpx 46rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.car-footer .text {
+  font-size: 32rpx;
+  color: #333333;
+}
+.car-footer .range {
+  width: auto!important;
+}

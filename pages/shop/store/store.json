@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Specs": "/components/specs/specs",
+    "Vip": "/components/vip/vip",
+    "Cart": "/components/cart/cart"
+  }
+}

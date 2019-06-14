@@ -1,0 +1,22 @@
+/**index.wxss**/
+.tabbar-list {
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  box-shadow:0 -1px 3px 0 rgba(0,0,0,0.04);
+}
+
+.tabbar-list .tabbar-border {
+  /* border-top: 1rpx solid rgba(0, 0, 0, 0.08); */
+}
+
+.text-active {
+  color: #081329!important;
+}
+
+.tabbar-logo {
+  width: 104rpx;
+  height: 104rpx;
+  z-index: 2;
+  bottom: 22rpx;
+}

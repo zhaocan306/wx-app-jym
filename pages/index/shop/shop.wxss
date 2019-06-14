@@ -1,0 +1,58 @@
+/* pages/shop/home/home.wxss */
+.title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 16rpx 0 18rpx 30rpx;
+}
+.title .land {
+  width: 48rpx;
+  height: 48rpx;
+}
+.title .address {
+  width: 402rpx;
+  font-size: 28rpx;
+  color: #8F8E93;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.title .picker {
+  width: 36rpx;
+  height: 36rpx;
+}
+/* 选择列表 */
+.list {
+  height: 222rpx;
+  margin: 0 40rpx 24rpx 40rpx;
+}
+.list label {
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  color: #333333;
+  font-weight:600;
+}
+.list .option {
+  display: flex;
+  padding:24rpx 24rpx 16rpx 24rpx;
+}
+.list .option .item {
+  width: 106rpx;
+  height: 132rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.list .option .item:not(:first-child) {
+  margin-left: 66rpx;
+}
+.list .option .item image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 16rpx;
+}
+.list .option .item text {
+  font-size: 26rpx;
+  color: #333333;
+}

@@ -1,0 +1,83 @@
+/** 服务页面 */
+.form-nav {
+  margin-bottom: 60rpx;
+}
+.form-nav .form-group {
+  width: 100%;
+  margin-bottom: 24rpx;
+}
+.form-nav .form-group label {
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #8F8E93;
+  letter-spacing: 0;
+}
+.form-nav .form-group .from-item {
+  display: flex;
+  margin-top: 10rpx;
+  height:70rpx;
+  line-height:70rpx;
+}
+.form-nav .form-group .form-textarea {
+  height: auto!important;
+  line-height: auto!important;
+}
+.form-nav .form-group .from-item .value {
+  height:auto;
+  background:#E5E5EA;
+  padding:12rpx 24rpx;
+  line-height:auto;
+  display:flex;
+  align-items:center;
+  font-size:32rpx;
+  color:#000000;
+}
+.form-nav .form-group .from-item .from-input {
+  width: 430rpx;
+  border-radius: 12rpx;
+}
+.form-nav .form-group .from-item .value .picker{
+  font-size:32rpx;
+  color:#000000;
+}
+.form-nav .form-group .from-item .from-readonly {
+  width:270rpx;
+  border-radius:12rpx 0 0 12rpx;
+}
+.form-nav .form-group .from-item .from-btn {
+  width:160rpx;
+  height:auto;
+  background:#3276FC;
+  color:#fff;
+  border-radius:0 6px 6px 0;
+  font-size:26rpx;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 0;
+}
+.form-nav .form-group .from-item textarea {
+  width:430rpx;
+  height:242rpx;
+  background:#E5E5EA;
+  font-size:32rpx;
+  border-radius:12rpx;
+  padding:12rpx 24rpx;
+  color:#000000;
+}
+.form-nav .form-footer {
+  margin-top: 16rpx;
+  float: right;
+}
+.form-nav .form-footer .form-btn {
+  width: 160rpx;
+  height: 76.5rpx;
+  background: #3276FC;
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}

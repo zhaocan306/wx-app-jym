@@ -1,0 +1,34 @@
+<!-- 自定义顶部栏 -->
+<navbar><view slot="content">服务</view></navbar>
+
+<view class='VerticalNav'>
+  <!-- 垂直导航栏 -->
+  <scroll-view class='item-list' scroll-with-animation>
+    <view class="item {{item.id==cur_index?'active':''}}" wx:for="{{list}}" wx:key bindtap='chooseType' data-id="{{item.id}}">
+      <image src='{{item.iconPath}}' wx:if="{{item.id!=cur_index}}"></image>
+      <image src='{{item.selectedIconPath}}' wx:else></image>
+      <text>{{item.name}}</text>
+    </view>
+  </scroll-view>
+
+  <view class='card'>
+    <!-- 获取wifi -->
+    <Wifi wx:if="{{cur_index==1}}"/>
+    <!-- 电话呼叫 -->
+    <Phone wx:if="{{cur_index==2}}"/>
+    <!-- 房间打扫 -->
+    <Clean wx:if="{{cur_index==3}}"/>
+    <!-- 预约发票 -->
+    <Receipt wx:if="{{cur_index==4}}"/>
+    <!-- 投诉吐槽 -->
+    <Complaint wx:if="{{cur_index==5}}"/>
+    <!-- 工程报修 -->
+    <Reimbursement wx:if="{{cur_index==6}}"/>
+    <!-- 生活缴费 -->
+    <Pay wx:if="{{cur_index==7}}"/>
+    <!-- 订房管理 -->
+    <Reservation wx:if="{{cur_index==8}}"/>
+    <!-- 租赁管理 -->
+    <Lease wx:if="{{cur_index==9}}"/>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+<!--pages/service/pay/pay.wxml-->
+<view class='pay-list'>
+  <view class='pay-card'>
+    <image src='/images/svg/ico_service_dianfei.svg'></image>
+    <text>电费</text>
+    <button bindtap='toPlaying'>立即缴费</button>
+  </view>
+  <view class='pay-card range'>
+    <image src='/images/svg/ico_service_shuifei.svg'></image>
+    <text>水费</text>
+    <button bindtap='toPlaying'>立即缴费</button>
+  </view>
+</view>
+<view class='pay-list pay-range'>
+  <view class='pay-card'>
+    <image src='/images/svg/ico_service_fangzu.svg'></image>
+    <text>房租</text>
+    <button bindtap='toPlaying'>立即缴费</button>
+  </view>
+  <view class='pay-card range'>
+    <image src='/images/svg/ico_service_wuyefei.svg'></image>
+    <text>物业费</text>
+    <button bindtap='toPlaying'>立即缴费</button>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Wifi": "/pages/service/wifi/wifi",
+    "Phone": "/pages/service/phone/phone",
+    "Clean": "/pages/service/clean/clean",
+    "Receipt": "/pages/service/receipt/receipt",
+    "Complaint": "/pages/service/complaint/complaint",
+    "Pay": "/pages/service/pay/pay",
+    "Reservation": "/pages/service/reservation/reservation",
+    "Lease": "/pages/service/lease/lease",
+    "Reimbursement": "/pages/service/reimbursement/reimbursement"
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_service_wifi_default@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_service_wifi_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wifi" transform="translate(4.000000, 4.000000)" fill="#8F8E93" fill-rule="nonzero">
+            <path d="M2.47,10 L2.47,10.00625 C1.105,10.00625 0,11.25375 0,12.50375 C0,13.75375 1.235,15 2.47,15 C3.835,15 4.94125,13.75375 4.94125,12.50375 L4.94125,12.5 C4.94125,11.11875 3.835,9.99999999 2.47,10 M2.47,5 L2.47,7.5 C4.94125,7.5 7.58875,10 7.58875,12.5 L10.05875,12.5 C10.05875,8.75 6.17625,5 2.47125,5 M15,12.5 L12.53,12.5 C12.53,7.5 7.41125,2.49999999 2.47,2.5 L2.47,0 C8.6475,0 15,5 15,12.5" id="Shape"></path>
+        </g>
+    </g>
+</svg>

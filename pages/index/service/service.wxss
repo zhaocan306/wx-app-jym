@@ -1,0 +1,38 @@
+.VerticalNav {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.VerticalNav .item-list {
+  width: 224rpx;
+  background: #fcfcfc;
+  white-space:initial;
+}
+.item-list .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: none;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  color: #696969;
+  font-family: PingFangSC-Regular;
+  letter-spacing: 0;
+}
+.item-list .active {
+  background: #3276FC;
+  color: #ffffff!important;
+}
+.item-list .item image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.VerticalNav .card {
+  width:calc(100% - 224rpx);
+  padding:40rpx 30rpx 0 66rpx;
+}

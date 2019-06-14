@@ -1,0 +1,22 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">修改手机号码</view></navbar>
+<!-- 修改手机号码 -->
+<view class='title'>
+  <text class='name'>输入新的手机号码</text>
+</view>
+<view class='phone-content'>
+  <view class='item border'>
+    <text class='phone-title'>+86</text>
+    <input class='phone-number' type='number' maxlength='11' auto-focus placeholder='输入手机号' placeholder-style='color: #C7C7CC;' bindinput="bindChangePhone"></input>
+    <text class='phone-code' bindtap='getCode' style="color:{{isColor?'#0099FF':'#C8C7CD'}};" wx:if="{{isCode}}">获取验证码</text>
+    <text class='review-code' wx:else>{{ count }}s重新获取</text>
+  </view>
+  <view class='item range'>
+    <input class='phone-number' type='number' maxlength='6' value='{{code}}' placeholder='输入验证码' placeholder-style='color: #C7C7CC;' bindinput='inputListener'></input>
+    <image class="{{isClearShow?'clearImgShow':'clearImgHide'}}" src='/images/svg/ico_close_all.svg' bindtap='clearTap'></image>
+  </view>
+</view>
+<!-- 按钮 -->
+<view class='footer'>
+  <view class='btn' class="btn {{ isCodes ? 'disabled' : ''}}">提交</view>
+</view>

@@ -1,0 +1,69 @@
+/* pages/message/edit-name/edit-name.wxss */
+page {
+  background: #F8F8F8;
+}
+.edit-name {
+  position: relative;
+  width: 100%;
+}
+.edit-name .edit-navbar {
+  background: #fff;
+  height: 208rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  margin-bottom: 48rpx;
+}
+.edit-name .edit-navbar .name {
+  font-size: 36rpx;
+  color: #000000;
+}
+.edit-name .edit-navbar .icon {
+  display: flex;
+  align-items: center;
+}
+.edit-navbar .icon .head {
+  width: 132rpx;
+  height: 132rpx;
+  margin-right: 64rpx;
+}
+.edit-navbar .icon .arrow {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.edit-name .user-name {
+  background: #fff;
+  height: 120rpx;
+  padding: 0 30rpx;
+  display: flex;
+  align-items: center;
+}
+.user-name .name {
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  color: #000000;
+}
+.footer {
+  display: block;
+  font-size: 24rpx;
+  color: #999999;
+  padding: 32rpx 240rpx 120rpx 30rpx;
+}
+.edit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-btn .btn {
+  width: 466rpx;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0099FF, #3642FF);
+  font-size: 30rpx;
+  border-radius: 12rpx;
+  color: #FFFFFF;
+}

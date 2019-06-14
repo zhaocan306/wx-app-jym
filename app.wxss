@@ -1,0 +1,72 @@
+/**app.wxss**/
+@import '/styles/main.wxss';
+@import '/styles/icon.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+text,view {
+  font-family: PingFangSC-Regular;
+  letter-spacing: 0;
+}
+.footer-title {
+  position: absolute;
+  bottom: 60rpx;
+  left: 50%;
+  margin-left: -132rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  color:#D2D1D7;
+}
+input ::-webkit-input-placeholder {
+  color: red;
+}
+.bg-order-blue {
+  background: #0099FF;
+}
+.bg-nav {
+  background: #fff;
+}
+.bg-blues {
+  color: #0099FF!important;
+}
+.text-white {
+  color: #fff;
+}
+/* 价格显示 */
+.goods-price {
+  font-family: DINAlternate-Bold;
+  font-size: 32rpx;
+  color: #151515;
+  letter-spacing:-7rpx;
+  width:auto;
+  display: flex;
+  align-items: center;
+}
+.curr {
+  font-size: 24rpx!important;
+  letter-spacing: -6rpx;
+  padding-top:8rpx;
+}
+.decimal {
+  font-size: 24rpx!important;
+  letter-spacing: -1rpx;
+}
+.bg-reds {
+  color: #FF0004!important;
+}
+.member {
+  color: #FF0004!important;
+  width:auto!important;
+  flex:1;
+}
+.vip {
+  width: 64rpx;
+  height: 32rpx;
+  margin-left: 12rpx;
+}

@@ -1,0 +1,23 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">我的评价</view></navbar>
+<!-- 描述 -->
+<view class='assess'>
+  <view class='content'>
+    <textarea placeholder='商品满足你的期待吗？说说它的优点和美中不足的地方吧' placeholder-class="assess-textarea"></textarea>
+    <view class='name'>你的评价能帮助其他小伙伴哟</view>
+  </view>
+  <view class='assess-item'>
+    <text class='title'>星级评价</text>
+    <view class='item' wx:for="{{evaluations}}" wx:key>
+      <text class='name'>{{item.name}}</text>
+      <block wx:for="{{starMap}}" wx:key wx:for-item="newitem">
+        <view class='star' data-index="{{item.id}}" bindtap='chooseStar'>
+          <image wx:if='{{item.star >= index + 1}}' src='{{starCheckedImgUrl}}' data-star="{{index + 1}}"></image>
+          <image wx:if='{{item.star < index + 1}}' src='{{starUnCheckedImgUrl}}' data-star="{{index + 1}}"></image>
+        </view>
+      </block>
+      <text class='tip'>{{item.note}}</text>
+    </view>
+    <view class='btn'>提交</view>
+  </view>
+</view>

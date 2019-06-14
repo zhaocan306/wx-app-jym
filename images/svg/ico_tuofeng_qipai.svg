@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_qipai@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="12.1484367%" x2="50%" y2="92.252159%" id="linearGradient-1">
+            <stop stop-color="#0CB4F3" offset="0%"></stop>
+            <stop stop-color="#0088FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <filter x="-38.9%" y="-38.6%" width="177.8%" height="195.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0476475468   0 0 0 0 0.471106656   0 0 0 0 0.835406037  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M25.9783221,3.28717331 L16.8646299,0.394051833 C16.0903693,0.152958381 15.2838479,0.57085371 15.0418915,1.32627988 L13.3159356,6.69462745 L12.2674578,1.16555089 C12.1222839,0.394051833 11.3641538,-0.12028086 10.5737628,0.0243752074 L1.16972289,1.80846678 C0.39546231,1.95312285 -0.120711395,2.70854902 0.0244624564,3.49612095 L3.16989605,19.8904759 C3.3150699,20.6619749 4.07320006,21.1763076 4.86359104,21.0316516 L12.5739359,19.5690179 L20.0261939,21.9317338 C20.7843241,22.1728273 21.6069759,21.7549319 21.8489324,20.9995058 L26.9461478,5.10341065 C27.1558434,4.34798448 26.7364522,3.52826674 25.9783221,3.28717331 Z M2.5892006,5.15162935 C1.91172262,4.73373402 1.21811419,4.33191161 1.12133161,3.801506 C1.07294034,3.51219384 1.28263589,3.22288171 1.60524447,3.15859013 C1.89559219,3.11037145 2.07302689,3.20680882 2.26659204,3.44790227 C2.36337462,3.15859011 2.47628762,2.99786115 2.78276575,2.94964247 C3.10537433,2.88535087 3.41185246,3.07822564 3.46024375,3.36753778 C3.55702633,3.88187047 3.07311348,4.50871346 2.5892006,5.15162935 Z M8.23485061,13.2845152 C6.4282426,12.1915582 4.63776504,11.0986012 4.36354776,9.732405 C4.21837391,8.97697883 4.78293891,8.22155268 5.63785162,8.0608237 C6.4121122,7.91616763 6.8637642,8.18940687 7.37993791,8.80017697 C7.63802476,8.02867791 7.94450291,7.6107826 8.71876349,7.46612651 C9.5736762,7.30539755 10.3801976,7.78758446 10.5253715,8.5590835 C10.7834583,9.94135264 9.50915447,11.6129339 8.23485061,13.2845152 Z M16.9291516,1.56737333 L17.4453254,3.19073592 L16.0742389,4.21940133 L15.5580652,2.59603874 L16.9291516,1.56737333 Z M17.3162819,14.6346386 L15.8484129,9.97349845 L19.7519766,7.0160854 L21.2198457,11.6772255 L17.3162819,14.6346386 Z" id="path-4"></path>
+        <filter x="-24.1%" y="-25.0%" width="148.1%" height="159.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0476475468   0 0 0 0 0.471106656   0 0 0 0 0.835406037  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_qipai" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="qipai" filter="url(#filter-3)" transform="translate(8.000000, 10.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+            </g>
+        </g>
+    </g>
+</svg>

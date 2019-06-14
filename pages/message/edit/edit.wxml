@@ -1,0 +1,27 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">个人信息</view></navbar>
+<!-- 列表 -->
+<view class='edit'>
+  <view class='edit-list' wx:for="{{editList}}" wx:key data-index="{{item.type}}" bindtap='toClickEdit'>
+    <text class='name'>{{item.name}}</text>
+    <view class='footer'>
+      <image class='portrait' src='/images/png/head.png' wx:if="{{item.type==1}}"></image>
+      <picker style='width:550rpx;text-align:right;' bindchange="PickerChange" value="{{index}}" range="{{sixList}}" wx:if="{{item.type==3}}">
+        <view class="tip">
+          {{sixList[type]}}
+        </view>
+      </picker>
+      <text class='tip' wx:if="{{item.type!=1 && item.type != 3}}">{{item.content}}</text>
+      <image class='icon' src='/images/svg/ico_more_gray.svg'></image>
+    </view>
+  </view>
+</view>
+<view class='address'>
+  <view class='edit-list range'>
+    <text class='name'>我的地址</text>
+    <view class='footer'>
+      <text class='tip'>添加/修改</text>
+      <image class='icon' src='/images/svg/ico_more_gray.svg'></image>
+    </view>
+  </view>
+</view>

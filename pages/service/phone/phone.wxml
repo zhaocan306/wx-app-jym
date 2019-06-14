@@ -1,0 +1,17 @@
+<!-- 拨打电话 -->
+<view class='form-nav'>
+  <view class='form-group'>
+    <label>拨打前台总机</label>
+    <view class='from-item'>
+      <input class='value from-readonly' value='{{phone}}' disabled></input>
+      <button class='from-btn' bindtap='toPhone'>呼叫</button>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>拨打客房总机</label>
+    <view class='from-item'>
+      <input class='value from-readonly' value='{{phone}}' disabled></input>
+      <button class='from-btn' bindtap='toPhone'>呼叫</button>
+    </view>
+  </view>
+</view>

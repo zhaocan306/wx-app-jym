@@ -1,0 +1,13 @@
+<view class="cu-modal {{isShow?'show':''}}">
+  <view class="cu-dialog">
+    <view class='content'>
+      <text class='title'>会员充值</text>
+      <text class='describe'>欢迎您加入家有马VIP</text>
+      <text class='describe'>VIP会员本单可优惠4.5元</text>
+    </view>
+    <view class='footer'>
+      <view class='btn btn-border' bindtap='hideModal'>取消</view>
+      <view class='btn' bindtap='showModal'>确定</view>
+    </view>
+  </view>
+</view>

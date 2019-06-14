@@ -1,0 +1,160 @@
+/* pages/index/index.wxss */
+page {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+  background-color: #fff;
+  height: 88rpx;
+}
+
+.navbar .navbar-item {
+  position: relative;
+  display: block;
+  flex: 1;
+  padding: 20rpx 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.navbar .bar-item-on {
+  color: #1aad19;
+}
+
+.navbar .navbar-title {
+  display: inline-block;
+  font-size: 28rpx;
+  width: auto;
+  color: #9696B4;
+}
+
+.navbar .bar-item-on .navbar-title {
+  color: #00090E;
+}
+
+.navbar .navbar-slider {
+  position: absolute;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  width: 52rpx;
+  height: 6rpx;
+  background-color: #0099FF;
+  border-radius: 16px;
+  -webkit-transition: -webkit-transform 0.05s;
+  transition: -webkit-transform 0.05s;
+  transition: transform 0.05s, -webkit-transform 0.05s;
+}
+.swiper-list {
+  width:100%;
+  margin-top:80rpx;
+  height: calc(100% - 200rpx);
+}
+.swiper-list .swiper-item {
+  height:184rpx;
+  margin:0 30rpx;
+  display: flex;
+  align-items: center;
+}
+.swiper-item .good-img {
+  width: 104rpx;
+  height: 104rpx;
+  box-shadow:0 0 24rpx 2rpx rgba(0,0,0,0.04);
+}
+
+.swiper-item .content {
+  height: 100%;
+  margin-left: 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom:2rpx solid #F8F8F8;
+}
+/* 左边的商品信息 */
+.swiper-item .content .good {
+  display: flex;
+  flex-direction: column;
+}
+.good .name {
+  display: flex;
+  align-items: center;
+}
+.good .name text {
+  font-size: 32rpx;
+  color: #333333;
+}
+.good .name image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.good .time {
+  font-size: 24rpx;
+  color: #6E6E6E;
+  padding-top:10rpx;
+}
+/* 右边的显示以及按钮操作 */
+.swiper-item .content .options {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  right:30rpx;
+}
+.options .tips {
+  padding-top:10rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #333333;
+  text-align: right;
+}
+.options .handel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40rpx;
+  position:relative;
+}
+.options .handel .btn {
+  width: 100rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0099FF;
+  border: 2rpx solid #0099FF;
+  border-radius: 4rpx;
+  background: #fff;
+  font-size: 22rpx;
+}
+.options .handel .range {
+  margin-right: 22rpx;
+}
+/* 价格显示 */
+.goods-price {
+  font-family: DINAlternate-Bold;
+  font-size: 32rpx;
+  color: #151515;
+  letter-spacing:-7rpx;
+  width:auto;
+  display: flex;
+  align-items: center;
+}
+.curr {
+  font-family: DINAlternate-Bold;
+  font-size: 24rpx!important;
+  letter-spacing: -6rpx;
+  padding-top:8rpx;
+}
+.decimal {
+  font-family: DINAlternate-Bold;
+  font-size: 24rpx!important;
+  letter-spacing: -1rpx;
+}
+.bg-reds {
+  color: #FF0004!important;
+}

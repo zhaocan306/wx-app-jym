@@ -1,0 +1,63 @@
+<view class='cart'>
+  <image src='/images/svg/ico_shop.svg' bindtap='onShowCart'></image>
+  <view class='cart-tip'>
+    <text class='title'>未选购商品</text>
+    <text class='item'>免配送费</text>
+  </view>
+  <!-- <view class='cart-btn'>去结算</view> -->
+  <view class='cart-btn success' bindtap='Settlement'>结算</view>
+</view>
+<view class="car-detail {{!isCart?'hide':''}}">
+  <view class="mask" bindtap='onHideCart'></view>
+  <view class="car-list {{!isCart?'':'translate-y'}}">
+    <view class='car-tips'>还差2元免配送费，去凑单</view>
+    <view class='title'>
+      <text class='name'>已选商品</text>
+      <view class='clean'>
+        <image src='/images/svg/ico_clean.svg'></image>
+        <text>清空</text>
+      </view>
+    </view>
+    <scroll-view scroll-y style="max-height: 368rpx;">
+      <view class='content'>
+        <image class='goods-img' src='/images/svg/Bitmap.svg'></image>
+        <view class='goods-list'>
+          <text class='name'>统一冰红茶300ml</text>
+          <view class='goods-price bg-reds'>
+            <text class='curr'>￥</text>
+            <text>3</text>
+            <text class='decimal'>.00</text>
+          </view>
+          <view class='car-btn'>
+            <image src='/images/svg/ico_tuofeng_reduce.svg'></image>
+            <text class='text'>1</text>
+            <image src='/images/svg/ico_tuofeng_add.svg'></image>
+          </view>
+        </view>
+      </view>
+      <view class='content'>
+        <image class='goods-img' src='/images/svg/Bitmap.svg'></image>
+        <view class='goods-list'>
+          <text class='name'>统一冰红茶300ml</text>
+          <view class='goods-price bg-reds'>
+            <text class='curr'>￥</text>
+            <text>3</text>
+            <text class='decimal'>.00</text>
+          </view>
+          <view class='car-btn'>
+            <image src='/images/svg/ico_tuofeng_reduce.svg'></image>
+            <text class='text'>1</text>
+            <image src='/images/svg/ico_tuofeng_add.svg'></image>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class='car-footer'>
+      <text class='text'>配送费</text>
+      <view class='goods-price bg-reds range'>
+        <text class='curr'>￥</text>
+        <text>1</text>
+      </view>
+    </view>
+  </view>
+</view>

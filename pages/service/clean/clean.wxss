@@ -1,0 +1,2 @@
+/* pages/service/clean/clean.wxss */
+@import '/styles/common.wxss';

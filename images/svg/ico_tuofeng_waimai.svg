@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_waimai@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.14304153%" x2="50%" y2="98.3373019%" id="linearGradient-1">
+            <stop stop-color="#FF9745" offset="0%"></stop>
+            <stop stop-color="#FF5616" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M19.8961713,9.98171938 L19.9130435,9.96786338 L18.8929267,9.43737627 L18.8929267,6.78164175 L19.6365996,4.8431205 C19.7534069,4.65243545 19.8364698,4.44459537 19.8799481,4.21630118 L19.9130435,4.12524742 L19.889682,4.10809236 C19.899416,4.02495633 19.9130435,3.94511934 19.9130435,3.85868426 C19.9130435,2.83202017 19.1129137,2 18.1265412,2 C18.0395847,2 17.9565217,2.013856 17.8695652,2.027712 L17.8695652,2 L13.7865023,2 L13.7865023,3.59476033 L15.3199221,3.59476033 L15.3199221,6.78164175 L13.0499675,11.0288376 L9.19013627,11.0288376 L10.0402336,9.55548224 L10.3367943,9.03885115 L10.7196626,8.37640209 L10.7196626,6.78164175 L1.02011681,6.78164175 L1.02011681,8.37640209 L2.55353667,8.37640209 L0,12.0931108 L0,14.7521444 L0.0129785872,14.7521444 C0.147306938,17.1215214 2.03049968,19 4.34068787,19 C6.47696302,19 8.24724206,17.3946827 8.61064245,15.2832913 L15.3906554,15.2832913 C15.7540558,17.3946827 17.5236859,19 19.66061,19 C22.0571058,19 24,16.9783427 24,14.4855812 C24,12.0759558 22.183647,10.1097225 19.8968203,9.98171938 L19.8961713,9.98171938 Z M4.34003893,16.2782845 C3.38611291,16.2782845 2.6164828,15.4772754 2.6164828,14.4855812 C2.6164828,13.4938871 3.38676183,12.6928779 4.34003893,12.6928779 C5.29331603,12.6928779 6.06294614,13.4938871 6.06294614,14.4855812 C6.06294614,15.4739763 5.29331603,16.2782845 4.34003893,16.2782845 Z M19.6599611,16.2782845 C18.706035,16.2782845 17.9364049,15.4772754 17.9364049,14.4855812 C17.9364049,13.4938871 18.7099286,12.6928779 19.6599611,12.6928779 C20.6132382,12.6928779 21.3828683,13.4938871 21.3828683,14.4855812 C21.3828683,15.4739763 20.6099935,16.2782845 19.6599611,16.2782845 Z" id="path-3"></path>
+        <filter x="-27.1%" y="-32.4%" width="154.2%" height="176.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M10.5296682,0.00067757667 L2.473292,0.00067757667 C2.20915146,0.00402758204 1.9973501,0.247528613 2.00002506,0.544776958 L2.00002506,5.45522304 C2.00002506,5.75742519 2.21076734,6 2.473292,6 L10.5266576,6 C10.6537683,5.9989328 10.7752401,5.94080187 10.8641002,5.83851509 C10.9529604,5.73622832 11.0018541,5.5982518 10.9999245,5.45522304 L10.9999245,0.544776958 C11.0021779,0.402339926 10.9538838,0.264767657 10.8657349,0.162518967 C10.7775859,0.0602702781 10.6568543,0.00178071449 10.5302703,0 L10.5296682,0.00067757667 Z M3.89610344,2.72659514 L9.10745889,2.72659514 L9.10745889,1.6377188 L3.89550132,1.6377188 L3.89550132,2.72727271 L3.89610344,2.72659514 Z" id="path-5"></path>
+        <filter x="-72.2%" y="-91.7%" width="244.4%" height="316.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_waimai" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="waimai" transform="translate(9.000000, 10.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

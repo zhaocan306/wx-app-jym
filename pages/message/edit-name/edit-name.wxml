@@ -1,0 +1,19 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">修改昵称</view></navbar>
+<view class='edit-name'>
+  <view class='edit-navbar' bindtap='toEditHead'>
+    <text class='name'>头像</text>
+    <view class='icon'>
+      <image class='head' src='/images/png/head.png'></image>
+      <image class='arrow' src='/images/svg/ico_more_gray.svg'></image>
+    </view>
+  </view>
+  <view class='user-name'>
+    <text class='name'>用户名</text>
+    <clearInput style='flex:1;' inputValue="家有马" inputHint='请输入昵称'/>
+  </view>
+  <text class='footer'>以汉字或者字母开头，限4-16个字符</text>
+  <view class='edit-btn'>
+    <view class='btn'>提交</view>
+  </view>
+</view>

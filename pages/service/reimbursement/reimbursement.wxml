@@ -1,0 +1,54 @@
+<!-- 工程报修 -->
+<view class='form-nav'>
+  <view class='form-group'>
+    <label>报修类型</label>
+    <view class='from-item'>
+      <picker class='value from-input' bindchange="PickerChange" value="{{index}}" range="{{reimbursementType}}">
+        <view class="picker">
+          {{reimbursementType[type]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>报修内容</label>
+    <view class='from-item'>
+      <input class='value from-input' value='{{reimbursement_content}}'></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>报修日期</label>
+    <view class='from-item'>
+      <picker class='value from-input' mode="date" value="{{day}}" start="2019-06-01" end="2020-09-01" bindchange="DateChange">
+        <view class="picker">
+          {{day}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>报修时间</label>
+    <view class='from-item'>
+      <picker class='value from-input' mode="time" value="{{time}}" start="00:00" end="24:00" bindchange="TimeChange">
+        <view class="picker">
+          {{time}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>报修房间</label>
+    <view class='from-item'>
+      <input class='value from-input' type='number' value='{{reimbursement_room}}'></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>联系人</label>
+    <view class='from-item'>
+      <input class='value from-input' type='number' value='{{people}}'></input>
+    </view>
+  </view>
+  <view class='form-footer'>
+    <button class='form-btn' bindtap='toReimbursement'>提交报修</button>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_ktv@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="12.1484367%" x2="50%" y2="92.252159%" id="linearGradient-1">
+            <stop stop-color="#FF8040" offset="0%"></stop>
+            <stop stop-color="#FF5E18" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M6.98839381,14.4077094 C8.05918712,15.0000824 9.06305585,15.3535953 10,15.4682481 L4.52174493,23.3506301 C4.23492529,23.751915 3.82859747,23.9668891 3.30276147,23.9955523 C2.77692547,24.0242155 2.34191569,23.9143398 1.99773212,23.6659254 L1.10859125,23.1499876 C0.707043757,22.920682 0.396322483,22.5815007 0.176427428,22.1324438 C-0.0434676272,21.6833869 -0.057808609,21.2391072 0.133404482,20.7996046 L4.1488794,12 C4.68427606,12.8598962 5.63078086,13.662466 6.98839381,14.4077094 Z M16,12.1437372 C14.9178039,13.2980151 13.7335139,13.9123888 12.4471299,13.9868583 L12.3552453,13.9589322 C11.9264507,14.0520192 11.3036775,13.9868583 10.4869257,13.7634497 C9.67017398,13.5400411 8.81258464,13.1863107 7.91415772,12.7022587 C6.97489322,12.1809719 6.19897906,11.6550308 5.58641525,11.1244353 C4.97385144,10.5938398 4.61652255,10.1144422 4.51442859,9.6862423 L4.42254402,9.65831622 C3.89165538,8.59712526 3.86102719,7.37768652 4.33065944,6 C5.59662465,7.5266256 7.31180331,8.86707734 9.47619544,10.0213552 C11.7018439,11.2128679 13.8764455,11.9203285 16,12.1437372 Z M17.0030063,10.4081034 C16.9435855,10.5462126 16.8247438,10.7435115 16.6464814,11 C14.7054011,10.9408103 12.5266376,10.2108046 10.1101908,8.80998273 C7.73335787,7.42889076 6.02996094,5.91955454 5,4.28197406 C5.15845553,3.94656601 5.27729718,3.70980739 5.35652494,3.57169819 C6.02996094,2.36817519 6.89156288,1.46060046 7.94133076,0.848974019 C8.99109864,0.237347575 10.0854321,-0.0438032901 11.2243312,0.00552142312 C12.3632304,0.0548461363 13.4773708,0.4050516 14.5667526,1.05613781 C16.2107287,2.02290219 17.2753518,3.35960192 17.7606218,5.066237 C18.2458919,6.77287208 17.9933534,8.55349422 17.0030063,10.4081034 Z" id="path-3"></path>
+        <filter x="-36.1%" y="-22.9%" width="172.2%" height="154.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.794722577   0 0 0 0 0.243428537   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_ktv" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="ktv" transform="translate(11.000000, 8.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

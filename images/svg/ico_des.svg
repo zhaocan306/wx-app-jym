@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_des@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_des" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+        <g id="zu" transform="translate(5.000000, 3.000000)" fill-rule="nonzero">
+            <path d="M7.13279772,18.2282609 C5.75688103,18.2282609 -1.95037438e-08,12.7137321 0,7.29107558 C0.000205985161,3.26426406 3.19360797,5.6666003e-16 7.13279773,0 C11.0719875,-5.6666003e-16 14.2653895,3.26426406 14.2655955,7.29107558 C14.2655955,12.713732 8.50871441,18.2282609 7.13279772,18.2282609 Z" id="Shape" fill="#3276FC"></path>
+            <path d="M7.13279773,9.51039698 C5.81968593,9.51039698 4.75519849,8.44590954 4.75519849,7.13279773 C4.75519849,5.81968593 5.81968593,4.75519849 7.13279773,4.75519849 C8.44590954,4.75519849 9.51039698,5.81968593 9.51039698,7.13279773 C9.51039698,8.44590954 8.44590954,9.51039698 7.13279773,9.51039698 Z" id="Path" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

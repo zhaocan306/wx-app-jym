@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_service_pay_default@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_service_pay_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shenghuojiaofei" transform="translate(4.000000, 4.000000)" fill="#8F8E93" fill-rule="nonzero">
+            <path d="M7.5,0 C7.5,0 15,5.83494949 15,9.80848485 C15,13.7820202 11.6404987,17 7.5,17 C3.35950127,17 0,13.7785859 0,9.80848485 C0,5.84010101 7.5,0 7.5,0 Z M6.82636804,11.9 L6.82636804,13.26 L8.23597322,13.26 L8.23597322,11.9 L10.1252598,11.9 L10.1252598,10.7907071 L8.24116832,10.7907071 L8.24116832,10.2 L10.1321866,10.2 L10.1321866,9.09070707 L8.79877626,9.09070707 L10.3798199,5.95 L8.8334103,5.95 L7.8082429,8.07414141 C7.7008774,8.30080808 7.60909721,8.53434343 7.53809744,8.77474747 C7.47575618,8.53434343 7.39090279,8.29909091 7.28526899,8.07414141 L6.28261372,5.95 L4.71369199,5.95 L6.27395521,9.09070707 L4.96652043,9.09070707 L4.96652043,10.2 L6.83156315,10.2 L6.83156315,10.7992929 L4.96652043,10.7992929 L4.96652043,11.9 L6.82636804,11.9 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

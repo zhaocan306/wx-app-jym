@@ -1,0 +1,43 @@
+<!-- 获取wifi -->
+<view class='form-nav'>
+  <view class='form-group'>
+    <label>房间号</label>
+    <view class='from-item'>
+      <input class='value from-input' value='{{roomName}}' disabled></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>WIFI名称</label>
+    <view class='from-item'>
+      <input class='value from-input' value='{{wifiName}}' disabled></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>WIFI密码</label>
+    <view class='from-item'>
+      <input class='value from-readonly' value='{{wifiPassword}}' disabled></input>
+      <button class='from-btn' bindtap='toCopyWifi'>一键复制</button>
+    </view>
+  </view>
+</view>
+<view class='form-nav'>
+  <view class='form-group'>
+    <label>房间号</label>
+    <view class='from-item'>
+      <input class='value from-input' value='{{roomName}}' disabled></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>WIFI名称</label>
+    <view class='from-item'>
+      <input class='value from-input' value='{{wifiName}}' disabled></input>
+    </view>
+  </view>
+  <view class='form-group'>
+    <label>WIFI密码</label>
+    <view class='from-item'>
+      <input class='value from-readonly' value='{{wifiPassword}}' disabled></input>
+      <button class='from-btn' bindtap='connected'>一键连接</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_shangdian@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.4874458%" id="linearGradient-1">
+            <stop stop-color="#FF6C49" offset="0%"></stop>
+            <stop stop-color="#FD3F43" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M13.5,1.12951807 C16.6893673,1.12951807 19.4156415,2.73795181 20.5136204,5 L22,5 C20.8422671,2.10240963 17.4699033,0 13.5,0 C9.52636203,0 6.15399824,2.10240963 5,5 L6.48637961,5 C7.58062385,2.73795178 10.3106327,1.12951807 13.5,1.12951807 Z" id="path-3"></path>
+        <filter x="-38.2%" y="-110.0%" width="176.5%" height="360.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M26.1086865,7 L0.887536722,7 C0.396558962,7 0,7.39078856 0,7.87462201 L0,10.881833 C0,11.3656664 0.396558962,11.756455 0.887536722,11.756455 L1.62778012,11.756455 L3.57658414,21.615492 C3.57658414,21.615492 3.68610995,23 4.76248427,23 L11.2358372,23 L15.8359211,23 L22.309274,23 C23.3818716,23 23.4951742,21.615492 23.4951742,21.615492 L25.4439782,11.756455 L26.1124633,11.756455 C26.603441,11.756455 27,11.3656664 27,10.881833 L27,7.87462201 C26.9924465,7.39078853 26.5958875,7 26.1086865,7 Z M9.74779689,19.7210979 C9.74779689,20.2347057 9.32480068,20.6515469 8.80360889,20.6515469 C8.28241712,20.6515469 7.85942088,20.2347057 7.85942088,19.7210979 L7.85942088,12.1546871 C7.85942088,11.6410793 8.28241709,11.2242382 8.80360889,11.2242382 C9.32480065,11.2242382 9.74779689,11.6410793 9.74779689,12.1546871 L9.74779689,19.7210979 Z M14.4422996,19.7210979 C14.4422996,20.2347057 14.0193034,20.6515469 13.4981116,20.6515469 C12.9769198,20.6515469 12.5539236,20.2347057 12.5539236,19.7210979 L12.5539236,12.1546871 C12.5539236,11.6410793 12.9769198,11.2242382 13.4981116,11.2242382 C14.0193034,11.2242382 14.4422996,11.6410793 14.4422996,12.1546871 L14.4422996,19.7210979 Z M19.1368023,19.7210979 C19.1368023,20.2347057 18.7138061,20.6515469 18.1926143,20.6515469 C17.6714226,20.6515469 17.2484263,20.2347057 17.2484263,19.7210979 L17.2484264,12.1546871 C17.2484264,11.6410793 17.6714226,11.2242382 18.1926144,11.2242382 C18.7138061,11.2242382 19.1368024,11.6410793 19.1368024,12.1546871 L19.1368023,19.7210979 Z" id="path-5"></path>
+        <filter x="-24.1%" y="-34.4%" width="148.1%" height="181.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_shangdian" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="chaoshi-2" transform="translate(7.000000, 7.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

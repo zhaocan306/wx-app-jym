@@ -1,0 +1,46 @@
+<!-- 自定义顶部栏 -->
+<view class='cu-custom'>
+  <view class="cu-bar fixed" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+      <text class='cuIcon-back bg-back'></text>
+    </navigator>
+    <view class='content text-white' style='top:{{StatusBar}}px;'>申请售后</view>
+  </view>
+</view>
+<!-- 顶部背景图 -->
+<view class='service'>
+  <image class='bg-service' src='/images/svg/img_service.jpg'></image>
+  <view class='cu-service' style='top:{{CustomBar}}px;'>
+    <view class='form-group'>
+      <text class='title'>问题类型</text>
+      <picker class='form-input' bindchange="PickerChange" value="{{index}}" range="{{cleanType}}">
+        <view class="picker">
+          {{cleanType[type]}}
+        </view>
+      </picker>
+    </view>
+    <view class='form-group'>
+      <text class='title'>问题描述</text>
+      <input class='form-input'></input>
+    </view>
+    <view class='form-group'>
+      <text class='title'>订单号码</text>
+      <input class='form-input' type='number'></input>
+    </view>
+    <view class='form-group'>
+      <text class='title'>收货地址</text>
+      <view class='address'>
+        <view class='form-input form-address'></view>
+        <image class="arrow" src='/images/svg/ico_more_gray.svg'></image>
+      </view>
+    </view>
+    <view class='form-group range'>
+      <text class='title'>联系方式</text>
+      <input class='form-input' type='number'></input>
+    </view>
+    <!-- 按钮 -->
+    <view class='form-footer'>
+      <button class='form-btn'>立即缴费</button>
+    </view>
+  </view>
+</view>

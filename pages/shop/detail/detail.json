@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Cart": "/components/cart/cart",
+    "Specs": "/components/specs/specs"
+  }
+}

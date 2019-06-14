@@ -1,0 +1,43 @@
+<!-- 自定义顶部栏 -->
+<navbar bgColor="bg-nav"><view class="nav-range" slot="content">家有马服务管家</view></navbar>
+<!-- 标题提示 -->
+<view class='home-title'>
+  <text class='title'>尊敬的客户下午好!</text>
+  <image src='/images/svg/ico_home_my.svg' bindtap='toMessage'></image>
+</view>
+<!-- 地址栏 -->
+<view class='home-address'>
+  <image src='/images/svg/ico_location.svg'></image>
+  <text class='address'>德思勤城市广场A7栋1207室</text>
+</view>
+<!-- 轮播图 -->
+<swiper class="card-swiper" indicator-dots="true" circular="true" autoplay="true" interval="4000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#fff">
+  <swiper-item wx:for="{{img_urls}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item" bindtap='toDetail'>
+      <image src="{{item}}" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+</swiper>
+<!-- 优惠活动 -->
+<view class='active'>
+  <label class='la-name'>优惠活动</label>
+  <image src='https://www.jiayouma2018.com/img/1.jpg'></image>
+</view>
+<!-- 服务总览 -->
+<view class='service'>
+  <label class='la-name range'>服务总览</label>
+  <view class='card' bindtap='toShowHotel'>
+    <text class='introduce'>酒店商圈介绍</text>
+    <image src='/images/svg/ico_back_down.svg' class="{{isHotel ? 'introduce-show': ''}}"></image>
+  </view>
+  <view class='content' wx:if="{{isHotel}}">
+    由湖南德思勤打造的长沙德思勤城市广场项目位于长沙城南韶山南路与湘府东路的交汇处，项目占地面积550亩，总建筑面积156万㎡。项目包括大型商业中心、国际五星级酒店、甲级写字楼、淘宝城、主题商业街、电视直播大厅、环球影视城、国际学校、高档公寓等诸多业态，集高档购物、时尚淘宝、商务办公、金融、政务、会务、餐饮、娱乐、教育、居住等十大功能于一体。
+  </view>
+  <view class='card' bindtap='toShowFacilities'>
+    <text class='introduce'>配套设施介绍</text>
+    <image src='/images/svg/ico_back_down.svg' class="{{isFacilities ? 'introduce-show': ''}}"></image>
+  </view>
+  <view class='content' wx:if="{{isFacilities}}">
+    由湖南德思勤打造的长沙德思勤城市广场项目位于长沙城南韶山南路与湘府东路的交汇处，项目占地面积550亩，总建筑面积156万㎡。项目包括大型商业中心、国际五星级酒店、甲级写字楼、淘宝城、主题商业街、电视直播大厅、环球影视城、国际学校、高档公寓等诸多业态，集高档购物、时尚淘宝、商务办公、金融、政务、会务、餐饮、娱乐、教育、居住等十大功能于一体。
+  </view>
+</view>

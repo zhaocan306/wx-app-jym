@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_confirm@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_confirm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-9" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+        <circle id="Oval" fill="#0099FF" fill-rule="nonzero" cx="16" cy="16" r="8"></circle>
+        <g id="queren" transform="translate(11.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M8.40124822,0.150533141 L2.15006637,6.39553653 C1.94997788,6.59646145 1.94997788,6.92179468 2.15006637,7.1225361 L2.87440907,7.84916869 C3.07449757,8.0502771 3.39884958,8.0502771 3.59893808,7.84916869 L9.84993363,1.60453229 C10.0500221,1.40379086 10.0500221,1.07827414 9.84993363,0.877532713 L9.12577723,0.150716634 C8.92568874,-0.0502082854 8.60133672,-0.0502082854 8.40124822,0.150533141 Z" id="Shape"></path>
+            <path d="M0.12200936,4.61726089 L2.69859217,7.8482691 C2.86144821,8.05057697 3.12544484,8.05057697 3.28830088,7.8482691 L3.87785797,7.11522672 C4.04071401,6.91291885 4.04071401,6.58504697 3.87785797,6.38255418 L1.30127516,3.1517309 C1.13841911,2.94942303 0.874574124,2.94942303 0.711718078,3.1517309 L0.122160995,3.88458836 C-0.0406950505,4.08689622 -0.0406950505,4.4147681 0.12200936,4.61726089 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

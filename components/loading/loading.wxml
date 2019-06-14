@@ -1,0 +1,2 @@
+<!--components/loading/loading.wxml-->
+<view class="cu-load {{isLoad?'loading':''}}"></view>

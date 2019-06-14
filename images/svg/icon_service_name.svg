@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_service_用户名@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="11.1898185%" x2="50%" y2="91.0924713%" id="linearGradient-1">
+            <stop stop-color="#229AF5" offset="0%"></stop>
+            <stop stop-color="#0566E5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_service_用户名" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40" rx="4"></rect>
+        <g id="yonghuming" transform="translate(7.000000, 8.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M13.5140449,24 L8.48595506,24 C3.73876404,24 0,24 0,21.699791 L0,21.2252723 C0.0393258427,16.788389 3.83707865,13.220116 8.48595506,13.2496059 L13.5140449,13.2496059 C18.1629213,13.220116 21.9606742,16.788389 22,21.2252723 L22,21.699791 C22,24 18.0730337,24 13.5140449,24 Z M10.747191,12.6437233 C7.08988764,12.5954672 4.16573034,9.72690819 4.21629213,6.23370034 C4.26685393,2.74317338 7.27247191,-0.0476396504 10.9325843,0.000616482692 C14.5533708,0.0488726158 17.4634831,2.86381371 17.4634831,6.32216992 C17.4353933,9.83682494 14.4297753,12.6651705 10.747191,12.6437233 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

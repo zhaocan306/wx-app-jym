@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_location@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-16.000000, -117.000000)" fill-rule="nonzero">
+            <g id="ico_location" transform="translate(9.000000, 111.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                <g id="zu" transform="translate(7.000000, 6.000000)">
+                    <path d="M4.99999999,13 C4.03549999,13 -1.3671875e-08,9.06715775 0,5.19983685 C0.000144392964,2.32800227 2.23867835,4.04129634e-16 5,0 C7.76132165,-4.04129634e-16 9.99985561,2.32800227 10,5.19983685 C10,9.06715773 5.9645,13 4.99999999,13 Z" id="Shape" fill="#3276FC"></path>
+                    <path d="M4.99999999,6.44604317 C4.09626131,6.44604317 3.36363635,5.72132424 3.36363635,4.82733813 C3.36363635,3.93335202 4.09626131,3.20863309 4.99999999,3.20863309 C5.90373868,3.20863309 6.63636363,3.93335202 6.63636363,4.82733813 C6.63636363,5.72132424 5.90373868,6.44604317 4.99999999,6.44604317 Z" id="Path" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

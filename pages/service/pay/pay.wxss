@@ -1,0 +1,43 @@
+/* pages/service/pay/pay.wxss */
+@import '/styles/common.wxss';
+.pay-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pay-range {
+  margin-top: 60rpx;
+}
+.pay-list .pay-card {
+  width: 136rpx;
+  height: 238rpx;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 10rpx;
+}
+.pay-list .range {
+  margin-right: 48rpx;
+}
+.pay-list .pay-card image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 4rpx;
+}
+.pay-list .pay-card text {
+  font-size: 26rpx;
+  color: #000000;
+}
+.pay-list .pay-card button {
+  width: 136rpx;
+  height: 52rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8rpx;
+  background: #3276FC;
+  font-size: 26rpx;
+  color: #fff;
+  padding: 0;
+  margin-top: 26rpx;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_phone@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home_详情" transform="translate(-15.000000, -668.000000)" fill-rule="nonzero">
+            <g id="酒店电话" transform="translate(15.000000, 627.000000)">
+                <g id="ico_phone" transform="translate(0.000000, 41.000000)">
+                    <rect id="Rectangle-9" x="0" y="0" width="24" height="24"></rect>
+                    <g id="dianhuazixunhuawuzongheguanli" fill="#0099FF">
+                        <path d="M20.8,0 L3.20000005,0 C1.44000009,0 1.86104836e-09,1.43999992 0,3.20000005 L0,20.8 C0,22.5599999 1.43999992,24 3.20000005,24 L20.8,24 C22.5599999,24 24,22.5600001 24,20.8 L24,3.20000005 C24,1.44000009 22.5600001,1.86104836e-09 20.8,0 Z M17.5999999,18.6199999 C16.5799999,19.6399999 12.8,18.6599999 9.05999995,14.94 C5.3199999,11.2 4.35999995,7.42000007 5.39999995,6.40000009 C6.28000001,5.52000003 7.35999987,3.98000004 8.96000006,5.97999999 C10.5600002,7.97999993 9.78000008,8.53999996 8.85999999,9.44000003 C8.21999992,10.0800001 9.55999994,11.68 10.94,13.06 C12.3400001,14.4400001 13.9200001,15.7800001 14.56,15.14 C15.4799999,14.2200001 16.0399999,13.4400001 18.02,15.0399999 C20.02,16.66 18.48,17.76 17.5999999,18.6199999 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

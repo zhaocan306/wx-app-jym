@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Star 2 Copy 3@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单_提交评价" transform="translate(-223.000000, -455.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="667"></rect>
+            <rect id="bg" fill="#F8F8F8" fill-rule="nonzero" x="0" y="0" width="375" height="667"></rect>
+            <g id="评价" transform="translate(15.000000, 363.000000)">
+                <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="345" height="255" rx="4"></rect>
+                <g id="配送评价" transform="translate(20.000000, 54.000000)" fill-rule="nonzero" stroke="#C8C7CD">
+                    <g id="配送评价-copy" transform="translate(0.000000, 38.000000)">
+                        <g id="Group" transform="translate(80.000000, 0.000000)">
+                            <path d="M123.213787,17.1761622 L122.218042,11.370525 L126.436085,7.25894996 L120.606894,6.41191891 L118,1.12977573 L115.393106,6.41191891 L109.563915,7.25894996 L113.781958,11.370525 L112.786213,17.1761622 L118,14.4351121 L123.213787,17.1761622 Z" id="Star-2-Copy-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

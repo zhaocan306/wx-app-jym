@@ -1,0 +1,37 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-back"><view class='text-white' slot="content">家有马服务管家</view></navbar>
+
+<view class='detail-img'>
+  <!-- 轮播图 -->
+  <swiper class='detail-swiper' indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key>
+      <image class='' src="{{item}}" mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 酒店介绍 -->
+  <scroll-view class='scrollView' scroll-y>
+    <view class='introduce'>
+      <view class='title'>酒店介绍</view>
+      <view class='content'>
+        由湖南德思勤打造的长沙德思勤城市广场项目位于长沙城南韶山南路与湘府东路的交汇处，项目占地面积550亩，总建筑面积156万㎡。项目包括大型商业中心、国际五星级酒店、甲级写字楼、淘宝城、主题商业街、电视直播大厅、环球影视城、国际学校、高档公寓等诸多业态，集高档购物、时尚淘宝、商务办公、金融、政务、会务、餐饮、娱乐、教育、居住等十大功能于一体。
+      </view>
+    </view>
+    <!-- 温馨提示 -->
+    <view class='introduce'>
+      <view class='title'>温馨提示</view>
+      <view class='content'>
+        亲爱的顾客:欢迎您来到美丽的城市,并选择入住本酒店.希望您在这里度过美好时光.祝您生活工作愉快! 1.尊敬的宾客 为了尊重您的私人空间不受打扰,请您使用“请勿打扰”，“请即清扫”牌。在没有得到您的允许前，我们不会随意进入您的房间。谢谢您的合作。
+      </view>
+    </view>
+    <!-- 酒店电话 -->
+    <view class='introduce footer'>
+      <view class='title'>酒店电话</view>
+      <view class='call'>
+        <image src='/images/svg/ico_phone.svg'></image>
+        <text class='phone'>0731-87892095</text>
+        <text class='btn' bindtap='toCall'>立即拨打</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+

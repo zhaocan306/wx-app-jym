@@ -1,0 +1,35 @@
+<!-- 自定义顶部栏 -->
+<navbar bgColor="bg-nav"></navbar>
+<!-- 顶部用户头像 -->
+<view class='message-navbar'>
+  <view class='message-icon'>
+    <image class='icon' src='/images/svg/ico_my_vippu.svg'></image>
+    <image class='portrait' src='/images/png/head.png'></image>
+    <image class='icon' src='/images/svg/ico_my_editor.svg' bindtap='toEdit'></image>
+  </view>
+  <text class='user-name'>用户名</text>
+  <text class='user-grade'>会员等级：普通会员</text>
+</view>
+<!-- 钱包、优惠券 、积分 -->
+<view class='message-middle'>
+  <view class='item'>
+    <text class='la-name number'>3.2</text>
+    <text class='tip'>我的钱包</text>
+  </view>
+  <view class='item'>
+    <text class='la-name name'>优惠券</text>
+    <text class='tip'>优惠券</text>
+  </view>
+  <view class='item'>
+    <text class='la-name number'>22</text>
+    <text class='tip'>积分</text>
+  </view>
+</view>
+<!-- 操作列表 -->
+<view class='message-footer'>
+  <view class='message-list' wx:for="{{messageList}}" wx:key>
+    <image class='icon' src='{{item.img}}'></image>
+    <text class='name'>{{item.name}}</text>
+    <image class='icon' src='/images/svg/ico_more_gray.svg'></image>
+  </view>
+</view>

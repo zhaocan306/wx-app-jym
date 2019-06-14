@@ -1,0 +1,66 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">超市</view></navbar>
+<!-- 搜索栏 -->
+<view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px">
+	<view class="search-list">
+		<icon class='searchcion' size='14' type="search"></icon>
+		<input type="text" placeholder="搜索" confirm-type="search" bindinput="searchIcon" bindfocus="searchFocus"></input>
+	</view>
+</view>
+
+<!-- 规格选择 -->
+<Specs wx:if="{{isSpecs}}" isShow="{{isSpecs}}" bind:confirm="confirmSpecs" bind:cancel="cancelSpecs"/>
+<!-- 提示充值会员弹窗 -->
+<Vip wx:if="{{isVip}}" isShow="{{isVip}}" bind:confirm="confirmVip" bind:cancel="cancelVip"/>
+<!-- 下面的购物车 -->
+<Cart isCart="{{isCart}}" bind:show="onShowCart" bind:hide="onHideCart" bind:confirm="Settlement"/>
+
+<!-- 上面商品页 -->
+<view class='VerticalNav'>
+  <scroll-view class='item-list' scroll-y scroll-with-animation scroll-top="{{VerticalNavTop}}">
+    <view class="item {{item.id==cur_index?'active':''}}" wx:for="{{category}}" wx:key bindtap='chooseType' data-id="{{item.id}}">
+    <image class='well' src='/images/svg/ico_rexiao.svg' wx:if="{{item.name === '热销'}}"></image>
+    <text>{{item.name}}</text>
+    </view>
+  </scroll-view>
+  <view class='shop-title'>
+    <view class='well'>热销</view>
+    <view class='footer'>
+      <text class='range'>优惠</text>
+      <text>价格</text>
+      <image class='slot' src='/images/svg/ico_price.svg'></image>
+    </view>
+  </view>
+  <scroll-view class='goods' scroll-y scroll-with-animation scroll-into-view="main-{{MainCur}}" bindscroll="VerticalMain">
+    <view class='goods-nav' wx:for="{{category}}" wx:key id="main-{{item.id}}">
+      <view class='goods-list' wx:for="{{item.goods_list}}" wx:key wx:for-item="newitem">
+        <image src="{{newitem.img}}" bindtap='toDetail'></image>
+        <view class='goods-item'>
+          <view class='goods-name' bindtap='toDetail'>
+            <text>{{newitem.name}}</text>
+          </view>
+          <view class='goods-label' bindtap='toDetail'>
+            <text class="label">夏日冰爽</text>
+            <text class="label">夏日冰爽</text>
+            <text class="label">夏日冰爽</text>
+          </view>
+          <text class='goods-value' bindtap='toDetail'>销量1256</text>
+          <view class='goods-btn'>
+            <view class='goods-price' bindtap='toDetail'>
+              <text class='curr'>￥</text>
+              <text>{{newitem.price}}</text>
+              <text class='decimal'>.00</text>
+            </view>
+            <view class='goods-price member' bindtap='toDetail'>
+              <text class='curr'>￥</text>
+              <text class='decimal'>2.7</text>
+            </view>
+            <image class='vip' src='/images/svg/ico_vip.svg'></image>
+            <text class='goods-change' bindtap='chooseNorms'>规格</text>
+            <text class='goods-tips'>1</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

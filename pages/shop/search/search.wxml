@@ -1,0 +1,17 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">搜索</view></navbar>
+<!-- 搜索栏 -->
+<view class="cu-bar bg-white search">
+	<view class="search-list">
+		<icon class='searchcion' size='14' type="search"></icon>
+		<input type="text" focus placeholder="搜索" confirm-type="search"></input>
+	</view>
+</view>
+<!-- 热门搜索 -->
+<view class='search-content'>
+  <label class='title'>热门搜索</label>
+  <view class='content'>
+    <text class='item'>冰咖啡</text>
+    <text class='item'>冰咖啡</text>
+  </view>
+</view>

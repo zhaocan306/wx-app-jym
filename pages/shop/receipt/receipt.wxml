@@ -1,0 +1,53 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">电子小票</view></navbar>
+<!-- 内容 -->
+<scroll-view class='receipt' scroll-y>
+  <text class='title'>家有马管家服务</text>
+  <text class='time'>下单时间: 2019-5-20-13:14:14</text>
+  <view class='good'>
+    <view class='head'>
+      <text>单品</text>
+      <text class='middle'>数量</text>
+      <text class='middle'>价格</text>
+      <text class='right'>会员价</text>
+    </view>
+    <view class='item'>
+      <text>统一冰红茶</text>
+      <text class='middle'>x4</text>
+      <text class='middle'>￥12</text>
+      <text class='right'>￥9</text>
+    </view>
+  </view>
+  <view class='price range'>
+    <text>配送费</text>
+    <text>￥1</text>
+  </view>
+  <view class='price'>
+    <text>优惠券</text>
+    <text>￥5</text>
+  </view>
+  <view class='remarks'>
+    <text class='label'>备注</text>
+    <text class='content'>不要辣！谢谢</text>
+  </view>
+  <view class='original'>
+    <text>原价</text>
+    <text class='oranges'>￥28</text>
+  </view>
+  <view class='total'>
+    <text class='all'>总价</text>
+    <text class='main'>￥23</text>
+  </view>
+  <view class='address'>
+    <text>收货地址</text>
+    <text>xxx</text>
+  </view>
+  <view class='address'>
+    <text>收货人</text>
+    <text>xxx</text>
+  </view>
+  <view class='address'>
+    <text>联系电话</text>
+    <text>xxx</text>
+  </view>
+</scroll-view>

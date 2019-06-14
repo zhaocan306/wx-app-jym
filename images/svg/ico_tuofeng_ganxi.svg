@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_ganxi@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="12.1484367%" x2="50%" y2="92.252159%" id="linearGradient-1">
+            <stop stop-color="#0CB4F3" offset="0%"></stop>
+            <stop stop-color="#0088FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M7.33333333,1.04761905 C9.79793432,1.9341242 12.2472866,1.91283725 14.6666667,1.04761905 C14.6664668,5.23809524 7.33333333,5.23809524 7.33333333,1.04761905 Z M17.2040592,0.832057045 L15.1437191,0 C12.407781,0.937701164 9.60631705,1.10965328 6.68098308,0 L4.6197995,0.832057045 L0,3.61496955 L2.06118358,9.48845977 L4.6197995,8.17824856 L4.6197995,20.5648978 C6.83478439,21.5493486 8.99031649,22.0087981 11.0729966,21.9998725 C13.1706664,21.9901421 15.2167879,21.4831138 17.2040351,20.5367309 L17.2040351,8.17798028 L19.9387923,9.48821586 L22,3.61496955 L17.2040592,0.832057045 Z" id="path-3"></path>
+        <filter x="-29.5%" y="-25.0%" width="159.1%" height="159.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0476475468   0 0 0 0 0.471106656   0 0 0 0 0.835406037  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_ganxi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="ganxifuwu" transform="translate(10.000000, 9.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

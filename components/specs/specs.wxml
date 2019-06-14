@@ -1,0 +1,28 @@
+<view class="cu-modal {{isShow?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar">
+      <view class="title">统一冰红茶</view>
+      <image class='close' src='/images/svg/ico_close.svg'  bindtap="hideModal"></image>
+    </view>
+    <scroll-view class='cu-content' scroll-y>
+      <view class='form-group'>
+        <label class='title'>容量</label>
+        <view class='content'>
+          <text class='item'>300ml</text>
+        </view>
+      </view>
+    </scroll-view>
+    <view class='cu-footer'>
+      <view class='cu-price'>
+        <text class='curr'>￥</text>
+        <text>2</text>
+        <text class='decimal'>.5</text>
+      </view>
+      <view class='cu-btn'>
+        <image src='/images/svg/ico_tuofeng_reduce.svg'></image>
+        <text class='text'>1</text>
+        <image src='/images/svg/ico_tuofeng_add.svg'></image>
+      </view>
+    </view>
+  </view>
+</view>

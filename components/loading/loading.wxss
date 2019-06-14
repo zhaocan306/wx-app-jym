@@ -1,0 +1,28 @@
+/* components/loading/loading.wxss */
+.cu-load {
+	display: block;
+	line-height: 3em;
+	text-align: center;
+}
+.cu-load::before {
+	font-family: "cuIcon";
+	display: inline-block;
+	margin-right: 6rpx;
+}
+
+.cu-load.loading::before {
+	content: "\e67a";
+	animation: cuIcon-spin 2s infinite linear;
+}
+
+.cu-load.loading::after {
+	content: "加载中...";
+}
+
+.cu-load.over::before {
+	content: "\e64a";
+}
+
+.cu-load.over::after {
+	content: "没有更多了";
+}

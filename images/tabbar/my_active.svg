@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tab_my-selected@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.20939094%" x2="50%" y2="98.1135898%" id="linearGradient-1">
+            <stop stop-color="#0099FF" offset="0%"></stop>
+            <stop stop-color="#3642FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ico_tab_my-selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="30" height="30"></rect>
+        <path d="M19.7369941,16.0620336 L24.4923962,21.3299226 C24.8624697,21.7398787 24.8301385,22.3722177 24.4201823,22.7422912 C24.236422,22.9081744 23.9976632,23 23.750105,23 L9.24989504,23 C8.69761029,23 8.24989504,22.5522847 8.24989504,22 C8.24989504,21.7524417 8.3417206,21.5136829 8.5076038,21.3299226 L12.9390522,16.4208996 C11.3531173,15.410428 10.3043478,13.6585683 10.3043478,11.6666667 C10.3043478,8.53705308 12.8933099,6 16.0869565,6 C19.2806031,6 21.8695652,8.53705308 21.8695652,11.6666667 C21.8695652,13.4399339 21.0383899,15.0229621 19.7369941,16.0620336 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+        <g id="my" transform="translate(4.000000, 4.000000)" fill-rule="nonzero" stroke="#081329">
+            <ellipse id="Oval-4" cx="9" cy="5.5" rx="5.82352941" ry="5.5"></ellipse>
+            <path d="M11.6470588,2.78527501 C10.9796597,2.29691046 10.0986663,2 9.13293693,2 C8.03281431,2 7.04265284,2.38529804 6.35294118,3" id="Oval-4"></path>
+            <path d="M18,16 L12.7058824,10 L18,16 Z" id="Line-3"></path>
+            <path d="M5.29411765,17 L0,11 L5.29411765,17 Z" id="Line-3" transform="translate(2.647059, 14.000000) scale(-1, 1) translate(-2.647059, -14.000000) "></path>
+        </g>
+    </g>
+</svg>

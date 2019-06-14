@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_zhongdianf@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.4874458%" id="linearGradient-1">
+            <stop stop-color="#FFE148" offset="0%"></stop>
+            <stop stop-color="#FFA50C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M21.784506,8.56629145 L21.784506,19.6025505 C21.784506,20.9266253 20.6910062,22 19.3421058,22 L4.68770509,22 C3.33880474,22 2.24530495,20.9266253 2.24530495,19.6025505 L2.24530495,8.53272716 L1.26508837,9.21360281 C0.897871609,9.4533717 0.402926318,9.36251797 0.148795851,9.0086926 C-0.105334615,8.65486724 -0.0262302363,8.16674646 0.327206733,7.907792 L11.5215406,0.146448885 C11.803121,-0.0488162949 12.1794702,-0.0488162949 12.4610506,0.146448885 L23.6553845,7.9061937 C24.022735,8.16085742 24.110215,8.65961886 23.8507765,9.02020855 C23.591338,9.38079825 23.0832251,9.46666822 22.7158746,9.2120045 L21.784506,8.56629145 Z M12.0149055,18.0042509 C14.7127062,18.0042509 16.8997057,15.8575015 16.8997057,13.2093519 C16.8997057,10.5612024 14.7127062,8.41445297 12.0149055,8.41445297 C9.31710478,8.41445297 7.13010521,10.5612024 7.13010521,13.2093519 C7.13010521,15.8575015 9.31710478,18.0042509 12.0149055,18.0042509 Z" id="path-3"></path>
+        <filter x="-27.1%" y="-25.0%" width="154.2%" height="159.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M14.7147339,14.0416009 C14.8894614,14.1317205 14.9981958,14.3000023 14.9999778,14.4830562 C15.0017598,14.6661102 14.8963187,14.8361259 14.7233732,14.9290602 C14.5504276,15.0219946 14.3362522,15.0237285 14.1615247,14.9336089 L12.285424,13.9655609 C12.1089849,13.8747692 11.9998966,13.7043076 12.0000001,13.5195569 L12.0000001,11.5118079 C12.0000001,11.2291442 12.2512698,11 12.5612268,11 C12.8711837,11 13.1224535,11.2291442 13.1224535,11.5118079 L13.1224535,13.2212461 L14.7147339,14.0416009 Z" id="path-5"></path>
+        <filter x="-216.7%" y="-137.5%" width="533.3%" height="425.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_zhongdianf" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="zhongdianfangicon" transform="translate(8.000000, 9.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

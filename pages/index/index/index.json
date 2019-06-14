@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "家有马服务管家",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "Home": "/pages/index/home/home",
+    "Message": "/pages/index/message/message",
+    "Shop": "/pages/index/shop/shop",
+    "Service": "/pages/index/service/service",
+    "Order": "/pages/index/order/order"
+  }
+}

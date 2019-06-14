@@ -1,0 +1,53 @@
+/* pages/login/index/index.wxss */
+.login {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bg-login {
+  width: 100%;
+  height: 784rpx;
+  position: absolute;
+}
+.text-white {
+  color: #fff;
+}
+.cu-login {
+  width: 548rpx;
+  height: 700rpx;
+  display: felx;
+  justify-content: center;
+  position: absolute;
+  margin-top: 150rpx;
+  left: 50%;
+  margin-left: -274rpx;
+  box-shadow: 0 1px 12px 0 rgba(37,93,255,0.10);
+  background: #fff;
+  border-radius: 16rpx;
+  letter-spacing:0;
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+}
+.cu-login image {
+  width: 280rpx;
+  height: 280rpx;
+  margin: 68rpx 0 56rpx 134rpx;
+}
+.cu-login .login-btn {
+  width:466rpx;
+  height:88rpx;
+  color:#fff;
+  background:linear-gradient(to right, #0099FF, #3642FF);
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.cu-login .login-text {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#8F8E94;
+  margin-top:60rpx;
+}

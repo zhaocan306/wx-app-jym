@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="675px" height="684px" viewBox="0 0 675 684" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>img_card@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.20939094%" x2="50%" y2="98.1135898%" id="linearGradient-1">
+            <stop stop-color="#0099FF" offset="0%"></stop>
+            <stop stop-color="#3642FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="142.12549%" y1="317.340474%" x2="67.5739103%" y2="78.9831429%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.430649909" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="91.168635%" y1="190.045354%" x2="56.7608463%" y2="73.2243213%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.371574955" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="img_card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle-2" fill="url(#linearGradient-1)" fill-rule="nonzero" x="305" y="342" width="345" height="180" rx="8"></rect>
+            <polygon id="Triangle" fill="url(#linearGradient-2)" transform="translate(365.822630, 375.500000) rotate(-45.000000) translate(-365.822630, -375.500000) " points="365.82263 207.5 634 543.5 97.6452599 543.5"></polygon>
+            <polygon id="Triangle-Copy" fill="url(#linearGradient-3)" transform="translate(308.822630, 308.500000) rotate(-45.000000) translate(-308.822630, -308.500000) " points="308.82263 140.5 577 476.5 40.6452599 476.5"></polygon>
+        </g>
+    </g>
+</svg>

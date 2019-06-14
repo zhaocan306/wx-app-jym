@@ -1,0 +1,127 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">订单详情</view></navbar>
+<!-- 商品列表 -->
+<scroll-view scroll-y class='detail'>
+  <!-- 派送商品总览 -->
+  <!-- <view class='delivery'>
+    <image src='/images/svg/Bitmap.svg'></image>
+    <view class='list'>
+      <view class='item'>
+        <text class='name'>统一冰红茶等2件</text>
+        <view class='goods-price'>
+          <text class='curr'>￥</text>
+          <text>13.7</text>
+        </view>
+      </view>
+      <text class='time'>下单时间: 13:14:14</text>
+    </view>
+  </view> -->
+  <!-- 订单状态 -->
+  <view class='navbar'>
+      <text class='title'>订单已取消</text>
+      <view class='item'>
+        <view class='item-list item-border'>
+          <text class='tip'>您的订单已取消</text>
+          <view class='btn'>再来一单</view>
+        </view>
+        <view class='item-list'>
+          <text class='item-name'>退款进度</text>
+          <view class='item-name bg-blues'>已退款</view>
+        </view>
+      </view>
+    </view>
+    <!-- 订单详情 -->
+    <view class='order-detail'>
+      <text class='title'>订单详情</text>
+      <view class='good'>
+        <text class='good-name'>统一冰红茶300ml</text>
+        <text class='price'>x1</text>
+        <view class='goods-price'>
+          <text class='curr'>￥</text>
+          <text>2.7</text>
+        </view>
+      </view>
+      <view class='good'>
+        <text class='good-name'>配送费</text>
+        <view class='goods-price'>
+          <text class='curr'>￥</text>
+          <text>1</text>
+        </view>
+      </view>
+      <view class='good'>
+        <text class='good-name'>优惠券</text>
+        <view class='goods-price'>
+          <text class='curr'>￥</text>
+          <text>5</text>
+        </view>
+      </view>
+      <view class='good'>
+        <text class='good-name'>电子小票</text>
+        <image src='/images/svg/ico_more_gray.svg'></image>
+      </view>
+      <view class='footer'>
+        <text class='name'>实付</text>
+        <view class='goods-price price'>
+          <text>￥13.7</text>
+        </view>
+      </view>
+    </view>
+    <!-- 配送信息 -->
+    <view class='delivery-info'>
+      <text class='title'>配送信息</text>
+      <view class='item'>
+        <text class='name'>订单号码</text>
+        <view class='footer'>
+          <text class='name'>7777777</text>
+          <view class='btn'>复制</view>
+        </view>
+      </view>
+      <view class='item'>
+        <text class='name'>下单时间</text>
+        <view class='footer'>
+          <text class='name'>2019-05-20</text>
+          <text class='name'>13:14:14</text>
+        </view>
+      </view>
+      <view class='item'>
+        <text class='name'>支付方式</text>
+        <view class='footer'>
+          <text class='name'>微信支付</text>
+        </view>
+      </view>
+      <view class='item'>
+        <text class='name'>订单备注</text>
+        <view class='footer'>
+          <text class='name'>如需取消订单,请致电酒店</text>
+        </view>
+      </view>
+    </view>
+    <!-- 订单信息 -->
+    <view class='delivery-info detail-range'>
+      <text class='title'>订单信息</text>
+      <view class='item'>
+        <text class='name'>配送时间</text>
+        <view class='footer'>
+          <text class='name'>立即送达</text>
+        </view>
+      </view>
+      <view class='item'>
+        <text class='name'>配送地址</text>
+        <view class='footer'>
+          <text class='name'>创业大街1207</text>
+        </view>
+      </view>
+      <view class='item'>
+        <text class='name'>配送人</text>
+        <view class='footer'>
+          <text class='name'>家有马</text>
+        </view>
+      </view>
+      <view class='item'>
+        <text class='name'>配送电话</text>
+        <view class='footer'>
+          <text class='name'>888-8888-8888</text>
+        </view>
+      </view>
+    </view>
+</scroll-view>

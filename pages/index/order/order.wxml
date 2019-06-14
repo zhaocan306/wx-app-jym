@@ -1,0 +1,50 @@
+<!-- 自定义顶部栏 -->
+<navbar bgColor="bg-nav"><view slot="content">订单</view></navbar>
+<!-- 弹窗 -->
+<Dialog wx:if="{{isShow}}" isShow="{{isShow}}" bind:confirm="confirmOrder" bind:cancel="cancelOrder"></Dialog>
+<!-- 加载状态栏 -->
+<Loading isLoad="{{isLoad}}"/>
+
+<view class='navbar'>
+  <block wx:for="{{tabs}}" wx:key="*this">
+      <view id="{{index}}" class="navbar-item {{tab1Index==index?'bar-item-on':''}}" data-index='{{index}}' bindtap='onTab1Click'>
+        <view class='navbar-title'>{{item}}</view>
+      </view>
+  </block>
+  <view class="navbar-slider" style="left: {{sliderLeft}}px;transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+</view>
+<!-- 内容区  swiper -->
+<!-- <scroll-view scroll-y style='height:calc(100% - 200rpx);'> -->
+  <swiper duration='200' bindanimationfinish="animationfinish" current="{{tab1Index}}" data-index='{{tab1Index}}' class='swiper-list'>
+      <swiper-item wx:for="{{tabs}}" wx:key="*this">
+        <view wx:for="{{list}}" wx:key wx:for-item="newitem" class='swiper-item' wx:if="{{newitem.status === tab1Index || tab1Index === 0}}">
+          <image class='good-img' src='{{newitem.img}}' bindtap='toDetail'></image>
+          <view class='content'>
+            <view class='good' bindtap='toDetail'>
+              <view class='name'>
+                <text>{{newitem.name}}</text>
+                <image src='/images/svg/ico_more_gray.svg'></image>
+              </view>
+              <view class='goods-price bg-reds'>
+                <text class='curr'>￥</text>
+                <text>{{newitem.price}}</text>
+              </view>
+              <text class='time'>下单时间: {{newitem.time}}</text>
+            </view>
+            <view class='options'>
+              <text class='tips'>{{newitem.type}}</text>
+              <view class='handel'>
+                <view class='btn' bindtap='clikCancelOrder' wx:if="{{newitem.status==1}}">立即支付</view>
+                <view class='btn' bindtap='clikCancelOrder' wx:if="{{newitem.status==2}}">取消订单</view>
+                <view style='display:flex;' wx:if="{{newitem.status == 4}}">
+                  <view class='btn range' bindtap='clickService'>申请售后</view>
+                  <view class='btn range' bindtap='clickAssess'>评价</view>
+                  <view class='btn'>再来一单</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+  </swiper>
+<!-- </scroll-view> -->

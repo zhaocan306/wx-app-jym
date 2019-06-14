@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tab_my-default@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_tab_my-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="30" height="30"></rect>
+        <rect id="Rectangle-2-Copy" fill-rule="nonzero" x="0" y="0" width="30" height="30"></rect>
+        <g id="my-copy" transform="translate(6.000000, 4.000000)" fill-rule="nonzero">
+            <path d="M9.99999742,7 L19.6739082,17.3159572 C20.0516946,17.7188169 20.0313687,18.3516555 19.6285091,18.7294419 C19.443152,18.9032627 19.1985743,19 18.9444663,19 L1.05552856,19 C0.50324381,19 0.0555285601,18.5522847 0.0555285601,18 C0.0555285601,17.745892 0.152265907,17.5013143 0.326086654,17.3159572 L9.99999742,7 Z" id="Triangle-3" stroke="#979797" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval-4" stroke="#8F8E93" fill="#FFFFFF" cx="9.5" cy="6" r="6"></circle>
+            <path d="M12.5,4.57055003 C11.7436143,3.59382092 10.7451552,3 9.65066185,3 C8.40385621,3 7.28167321,3.77059609 6.5,5" id="Oval-4" stroke="#8F8E93"></path>
+        </g>
+        <path d="M13.3240741,20.8333333 L17.7222222,20.8333333" id="Line-Copy" stroke="#8F8E93" stroke-linecap="square" fill-rule="nonzero"></path>
+    </g>
+</svg>

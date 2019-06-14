@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Star 2 Copy 2@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单_提交评价" transform="translate(-187.000000, -455.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="667"></rect>
+            <rect id="bg" fill="#F8F8F8" fill-rule="nonzero" x="0" y="0" width="375" height="667"></rect>
+            <g id="评价" transform="translate(15.000000, 363.000000)">
+                <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="345" height="255" rx="4"></rect>
+                <g id="配送评价" transform="translate(20.000000, 54.000000)" fill="#0099FF" fill-rule="nonzero">
+                    <g id="配送评价-copy" transform="translate(0.000000, 38.000000)">
+                        <g id="Group" transform="translate(80.000000, 0.000000)">
+                            <polygon id="Star-2-Copy-2" points="82 15 76.1221475 18.0901699 77.2447174 11.545085 72.4894348 6.90983006 79.0610737 5.95491503 82 0 84.9389263 5.95491503 91.5105652 6.90983006 86.7552826 11.545085 87.8778525 18.0901699"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_close_all@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.54">
+        <g id="我的_修改昵称" transform="translate(-339.000000, -218.000000)">
+            <g id="昵称" transform="translate(0.000000, 195.000000)">
+                <g id="Material/Icons-black/close" transform="translate(336.000000, 20.000000)">
+                    <circle id="Oval" fill="#D8D8D8" cx="12.5" cy="12.5" r="9.5"></circle>
+                    <polygon id="Shape" fill="#FFFFFF" points="17 8.9 16.1 8 12.5 11.6 8.9 8 8 8.9 11.6 12.5 8 16.1 8.9 17 12.5 13.4 16.1 17 17 16.1 13.4 12.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

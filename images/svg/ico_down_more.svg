@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_down_more@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_down_more" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+        <path d="M6,3.28333333 L7.13513514,2 L11.3439027,6.75824553 C11.7062552,7.16790521 11.7030041,7.83577032 11.3439027,8.24175447 L7.13513514,13 L6,11.7166667 L9.0629288,8.2538555 C9.43119278,7.8375126 9.43706409,7.16912524 9.0629288,6.7461445 L6,3.28333333 Z" id="Shape" fill="#696969" opacity="0.7"></path>
+    </g>
+</svg>

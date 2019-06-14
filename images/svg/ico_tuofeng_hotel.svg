@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_hotel@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="9.3654589%" x2="50%" y2="92.8554101%" id="linearGradient-1">
+            <stop stop-color="#00EFFC" offset="0%"></stop>
+            <stop stop-color="#02B8FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M8.39795981,9.7803873 C9.66933356,9.7803873 10.8219947,10.2897027 11.6644713,11.1130321 C12.5069479,10.2897027 13.659609,9.7803873 14.9309828,9.7803873 C17.1022747,9.7803873 18.9250877,11.2585508 19.4458914,13.2613474 L21.3644404,13.2613474 L21.3644404,5.64842257 L21.3567815,5.64842257 C21.1423329,2.54274753 16.9376089,0 11.6644713,0 C6.83171923,0 2.89505592,2.13682698 2.11002089,4.88253478 C2.01811436,5.11996 1.96450221,5.38036186 1.96450221,5.6484226 L1.96450221,13.2613474 L3.88305116,13.2613474 C4.40385488,11.2585508 6.2304973,9.7803873 8.39795981,9.7803873 Z M14.9309828,10.710941 C13.5255787,10.710941 12.3001582,11.4883171 11.6644713,12.6333194 C11.0287844,11.4883171 9.80336392,10.710941 8.39795981,10.710941 C6.74747158,10.710941 5.34972633,11.7793545 4.85572869,13.2613474 L18.4732139,13.2613474 C17.9792163,11.7793545 16.581471,10.710941 14.9309828,10.710941 Z M21.8546086,14.4867679 L1.47433402,14.4867679 C0.444214927,14.4867679 0,15.2718029 0,16.2980925 L0,23.5740267 L1.96450221,23.5740267 C1.96450221,22.896216 2.51594144,22.3447768 3.19375213,22.3447768 L20.384104,22.3447768 C21.0619147,22.3447768 21.6133539,22.896216 21.6133539,23.5740267 L23.332772,23.5740267 L23.332772,16.2980925 C23.3289426,15.2718029 22.8847277,14.4867679 21.8546086,14.4867679 Z" id="path-3"></path>
+        <filter x="-27.9%" y="-23.3%" width="155.7%" height="155.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.280943554   0 0 0 0 0.65396873   0 0 0 0 0.793340774  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_hotel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="jiudian-4" transform="translate(8.000000, 8.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

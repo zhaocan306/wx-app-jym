@@ -1,0 +1,12 @@
+<view class="cu-modal {{isShow?'show':''}}">
+  <view class="cu-dialog">
+    <view class='content'>
+      <text class='title'>取消订单</text>
+      <text class='describe'>是否取消订单</text>
+    </view>
+    <view class='footer'>
+      <view class='btn btn-border' bindtap='showModal'>是</view>
+      <view class='btn' bindtap='hideModal'>否</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_back_white@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico_back_white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico_back">
+            <rect id="Rectangle-3" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+            <path d="M15.4846019,20.4459438 L7.02154529,11.9828872 C6.99313267,11.8281663 6.99250551,11.6410541 7.02154529,11.4850604 L15.4846019,3.0220038 C15.5499209,2.9935548 15.7339638,2.99178928 15.9824287,3.0220038 L16.9780824,4.01765751 C17.0064444,4.27766527 17.0077969,4.46520221 16.9780824,4.51548437 L10.0085064,11.4850604 C9.90853264,11.6392005 9.9065458,11.8273784 10.0085064,11.9828872 L16.9780824,18.9524632 C17.00581,19.0013767 17.0087644,19.188577 16.9780824,19.4502901 L15.9824287,20.4459438 C15.7362838,20.474453 15.550548,20.4756656 15.4846019,20.4459438 Z" id="Rectangle-" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

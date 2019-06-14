@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_pin@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="8.39641109%" y1="21.1042152%" x2="54.5800829%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0099FF" offset="0%"></stop>
+            <stop stop-color="#3642FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ico_pin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="1" y="2" width="22" height="20" rx="2"></rect>
+        <text id="拼" font-family="hzgb, 汉真广标" font-size="12" font-weight="normal" fill="#FFFFFF">
+            <tspan x="6" y="16">拼</tspan>
+        </text>
+    </g>
+</svg>

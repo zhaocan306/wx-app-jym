@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_my_vippu@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="12.1111338%" y1="10.6274403%" x2="76.7201297%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A2A2A2" offset="0%"></stop>
+            <stop stop-color="#696969" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ico_my_vippu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-3-Copy" fill="#F8F8F8" fill-rule="nonzero" cx="18" cy="18" r="18"></circle>
+        <g id="huiyuanshengji" transform="translate(9.000000, 10.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="9 16 0 6 3.00000001 0 15 0 18 6"></polygon>
+            <polygon id="Shape" fill="#FFFFFF" points="6 4 12 4 12 6 6.00286842 6"></polygon>
+        </g>
+    </g>
+</svg>

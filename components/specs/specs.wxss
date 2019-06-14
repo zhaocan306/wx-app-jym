@@ -1,0 +1,140 @@
+.cu-modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1110;
+	opacity: 0;
+	outline: 0;
+	text-align: center;
+	-ms-transform: scale(1.185);
+	transform: scale(1.185);
+	backface-visibility: hidden;
+	perspective: 2000rpx;
+	background: rgba(0, 0, 0, 0.6);
+	transition: all 0.3s ease-in-out 0s;
+	pointer-events: none;
+}
+
+.cu-modal::before {
+	content: "\200B";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.cu-modal.show {
+	opacity: 1;
+	transition-duration: 0.3s;
+	-ms-transform: scale(1);
+	transform: scale(1);
+	overflow-x: hidden;
+	overflow-y: auto;
+	pointer-events: auto;
+}
+
+.cu-dialog {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600rpx;
+  height: 624rpx;
+	background-color: #fff;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.cu-bar {
+	display: flex;
+	position: relative;
+	align-items: center;
+	min-height: 100rpx;
+	justify-content: space-between;
+}
+.cu-bar .title {
+  width: 203rpx;
+  height: 44rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #333333;
+  margin-left: 194rpx;
+}
+.cu-bar .close {
+  width: 32rpx;
+  height: 30rpx;
+  margin-right: 30rpx;
+}
+.cu-content {
+  height: 420rpx;
+}
+.cu-content .form-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding-left: 42rpx;
+  margin-bottom:24rpx;
+}
+.cu-content .form-group .title {
+  line-height:42rpx;
+  display:flex;
+  height:42rpx;
+  width: 100%;
+  font-size: 30rpx;
+  color: #3D3D3F;
+  margin-bottom: 8rpx;
+}
+.cu-content .form-group .content {
+  display: flex;
+  width: 100%;
+}
+.cu-content .form-group .content .item {
+  width: 114rpx;
+  height: 68rpx;
+  background: #EFEFF4;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+  color: #3D3D3F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 底部栏 */
+.cu-footer {
+  height: 104rpx;
+  background: #F8F8F8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32rpx;
+}
+.cu-footer .cu-price {
+  font-family: DINAlternate-Bold;
+  font-size: 36rpx;
+  color: #2E2E2E;
+}
+.cu-footer .cu-price .curr {
+  font-size: 24rpx!important;
+  letter-spacing: -6rpx;
+}
+.cu-footer .cu-price .decimal {
+  font-size: 24rpx!important;
+  letter-spacing: -1rpx;
+}
+.cu-footer .cu-btn {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.cu-footer .cu-btn image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.cu-footer .cu-btn .text {
+  font-size: 32rpx;
+  color: #2E2E2E;
+  width: 20rpx;
+  padding: 0 16rpx;
+}

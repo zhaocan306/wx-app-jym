@@ -1,0 +1,15 @@
+.input-class {
+  display:flex;
+  font-size:32rpx;
+  align-items:center;
+  color: #333333;
+  background:white;
+}
+.clearImgShow {
+  width: 35rpx;
+  height: 35rpx;
+  vertical-align: center;
+}
+.clearImgHide {
+  display: none;
+}

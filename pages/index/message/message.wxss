@@ -1,0 +1,105 @@
+/* pages/index/message/message.wxss */
+.message-navbar {
+  position: relative;
+  width: 100%;
+  padding-top: 12rpx;
+  padding-bottom: 60rpx;
+  border-bottom: 2rpx solid #F8F8F8;
+}
+/* 头像 */
+.message-navbar .message-icon {
+  height: 168rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 140rpx;
+}
+.message-navbar .message-icon .icon {
+  width: 72rpx;
+  height: 72rpx;
+}
+.message-navbar .message-icon .portrait {
+  width: 168rpx;
+  height: 168rpx;
+  margin: 0 80rpx;
+}
+/* 用户名 */
+.message-navbar .user-name {
+  display: block;
+  line-height: 50rpx;
+  text-align: center;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  color: #000000;
+  margin-top: 30rpx;
+  margin-bottom: 16rpx;
+}
+.message-navbar .user-grade {
+  display: block;
+  line-height: 34rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  color: #8F8E93;
+  text-align: center;
+}
+.message-navbar .week {
+  color: #0099FF!important;
+}
+.message-navbar .month {
+  color: #FFCC33!important;
+}
+/* 钱包、优惠券、积分 */
+.message-middle {
+  height: 194rpx;
+  padding: 0 78rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #F8F8F8;
+}
+.message-middle .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.message-middle .item .la-name {
+  line-height: 64rpx;
+  font-family: DINAlternate-Bold;
+  color: #333333;
+  display: block;
+  margin-bottom: 6rpx;
+}
+.message-middle .item .number {
+  font-size: 56rpx;
+  letter-spacing: -3rpx;
+}
+.message-middle .item .name {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.message-middle .item .tip {
+  font-size: 22rpx;
+  color: #8F8E93;
+}
+/* 操作列表 */
+.message-footer {
+  padding-bottom: 130rpx;
+}
+.message-footer .message-list {
+  height: 88rpx;
+  padding: 0 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #F8F8F8;
+}
+.message-footer .message-list .icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+.message-footer .message-list .name {
+  font-size: 24rpx;
+  color: #333333;
+  flex: 1;
+  display: flex;
+  padding-left: 16rpx;
+}

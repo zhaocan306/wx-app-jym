@@ -1,0 +1,6 @@
+{
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "Cart": "/components/cart/cart"
+  }
+}

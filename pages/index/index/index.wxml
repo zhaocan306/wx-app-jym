@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<Home id="homes" wx:if="{{ PageCur == 'home'}}" bind:message="toMessage"/>
+<Service id="services" wx:if="{{ PageCur == 'service'}}"/>
+<Shop id="shops" wx:if="{{ PageCur == 'shop'}}"/>
+<Order id="orders" wx:if="{{ PageCur == 'order'}}"/>
+<Message id="messages" wx:if="{{ PageCur == 'message'}}"/>
+<view class="cu-bar tabbar bg-white tabbar-list">
+    <view class="action tabbar-border" bindtap="NavChange" data-cur="home">
+      <view class='cuIcon-cu-image'>
+        <image wx:if="{{ PageCur == 'home'}}" src="/images/tabbar/home_active.svg"></image>
+        <image wx:else src="/images/tabbar/home.svg"></image>
+      </view>
+      <view class="cu-text {{PageCur=='home'?'text-active':''}}">首页</view>
+    </view>
+    <view class="action tabbar-border" bindtap="NavChange" data-cur="service">
+      <view class='cuIcon-cu-image'>
+        <image wx:if="{{ PageCur == 'service'}}" src="/images/tabbar/service_active.svg"></image>
+        <image wx:else src="/images/tabbar/service.svg"></image>
+      </view>
+      <view class="{{PageCur=='service'?'text-active':''}}">服务</view>
+    </view>
+    <view class="action add-action tabbar-border" bindtap="NavChange" data-cur="shop">
+      <image class='tabbar-logo' src='/images/tabbar/tab_logo.svg'></image>
+    </view>
+    <view class="action tabbar-border" bindtap="NavChange" data-cur="order">
+      <view class='cuIcon-cu-image'>
+        <image wx:if="{{ PageCur == 'order'}}" src="/images/tabbar/order_active.svg"></image>
+        <image wx:else src="/images/tabbar/order.svg"></image>
+      </view>
+      <view class="{{PageCur=='order'?'text-active':''}}">订单</view>
+    </view>
+    <view class="action tabbar-border" bindtap="NavChange" data-cur="message">
+      <view class='cuIcon-cu-image'>
+        <image wx:if="{{ PageCur == 'message'}}" src="/images/tabbar/my_active.svg"></image>
+        <image wx:else src="/images/tabbar/my.svg"></image>
+      </view>
+      <view class="{{PageCur=='message'?'text-active':''}}">我的</view>
+    </view>
+  </view>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_tuofeng_movie@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.4874458%" id="linearGradient-1">
+            <stop stop-color="#FFE148" offset="0%"></stop>
+            <stop stop-color="#FFA50C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.83119581%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.697831748" offset="99.4309971%"></stop>
+        </linearGradient>
+        <path d="M23.4286641,22.8528033 L17.0593828,22.8528033 C21.1075313,20.9299458 23.9058281,16.7941552 23.9058281,12 C23.9058281,5.3709889 18.5559141,0 11.9529141,0 C5.3499375,-3.44828295e-16 0,5.3709889 0,12 C0,18.5931516 5.29150781,23.9380695 11.8425469,24 L23.4286641,24 C23.7435469,24 24,23.7425366 24,23.4264134 C24,23.1102902 23.7435469,22.8528033 23.4286641,22.8528033 Z M18.2182969,9.19717407 C19.7895234,9.19717407 21.0653203,10.4812673 21.0653203,12.0554127 C21.0685781,13.6295582 19.7895234,14.9136514 18.2182969,14.9136514 C16.6470703,14.9136514 15.3712734,13.6295817 15.3712734,12.0554127 C15.3712969,10.4779967 16.6503516,9.19717407 18.2182969,9.19717407 Z M14.7999375,5.76210168 C14.7999375,7.33949423 13.5241406,8.62034036 11.9529141,8.62034036 C10.3816875,8.62034036 9.10589063,7.33624711 9.10589063,5.76210168 C9.10591406,4.18466208 10.3849688,2.90386301 11.9529141,2.90386301 C13.5241406,2.90386301 14.7999375,4.18793273 14.7999375,5.76210168 Z M13.6605,12.0130591 C13.6605,12.9614523 12.894375,13.7273246 11.9529375,13.7273246 C11.0115234,13.7273246 10.2453984,12.9614287 10.2453984,12.0130591 C10.2453984,11.0646423 11.0115234,10.29877 11.9529375,10.29877 C12.8943516,10.2987464 13.6605,11.067913 13.6605,12.0130591 Z M5.68753125,14.9136279 C4.11632813,14.9136279 2.84050781,13.6295582 2.84050781,12.0553892 C2.84050781,10.4779967 4.1195625,9.19715054 5.68753125,9.19715054 C7.25875781,9.19715054 8.53455469,10.4812438 8.53455469,12.0553892 C8.53455469,13.6295582 7.25875781,14.9136279 5.68753125,14.9136279 Z M11.9529375,15.487238 C13.5241641,15.487238 14.7999609,16.7713077 14.7999609,18.3454767 C14.7999609,19.9196456 13.5241406,21.2036918 11.9529141,21.2036918 C10.3816875,21.2036918 9.10591406,19.9196221 9.10591406,18.3454767 C9.10591406,16.7680841 10.3849688,15.487238 11.9529375,15.487238 Z" id="path-3"></path>
+        <filter x="-27.1%" y="-22.9%" width="154.2%" height="154.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.91703869   0 0 0 0 0.426435451   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico_tuofeng_movie" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="1" width="40" height="38" rx="6"></rect>
+        <g id="dianying" transform="translate(8.000000, 8.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
