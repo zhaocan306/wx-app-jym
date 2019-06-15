@@ -7,17 +7,17 @@ Page({
   data: {
     imageList: [
       {
-        img: "/images/png/icon_card_zhou.png",
+        img: "/images/png/icon_card_week.jpg",
         type: 1
       },
-      // {
-      //   img: "/images/png/icon_card_yue.png",
-      //   type: 2
-      // },
-      // {
-      //   img: "/images/png/icon_card_ji.png",
-      //   type: 3
-      // }
+      {
+        img: "/images/png/icon_card_month.jpg",
+        type: 2
+      },
+      {
+        img: "/images/png/icon_card_ji.jpg",
+        type: 3
+      }
     ]
   },
 })

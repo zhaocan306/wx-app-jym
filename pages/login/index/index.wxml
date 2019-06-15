@@ -6,7 +6,7 @@
 </view>
 <view class='login'>
   <!-- 背景图 -->
-  <image class='bg-login' src='/images/png/bg-login.png'></image>
+  <image class='bg-login' src='/images/png/bg-login.jpg'></image>
   <!-- 卡片栏 -->
   <view class='cu-login' style='top:{{CustomBar}}px;'>
     <image src='/images/png/logo.png'></image>

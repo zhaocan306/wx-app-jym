@@ -17,7 +17,7 @@
 .cart image {
   width: 180rpx;
   height: 180rpx;
-  margin-top: -45rpx;
+  margin-top: -55rpx;
   margin-left: 15rpx;
 }
 .cart .cart-tip {

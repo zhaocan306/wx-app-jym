@@ -1,5 +1,5 @@
 <view class='cart'>
-  <image src='/images/svg/ico_shop.svg' bindtap='onShowCart'></image>
+  <image src='/images/png/icon_shop.png' bindtap='onShowCart'></image>
   <view class='cart-tip'>
     <text class='title'>未选购商品</text>
     <text class='item'>免配送费</text>
