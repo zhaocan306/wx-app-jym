@@ -6,7 +6,7 @@
   <text class='name'>我的钱包</text>
   <text class='money'>￥3.2</text>
   <view class='btn'>充值</view>
-  <view class='btn range'>充值</view>
+  <view class='btn range'>提现</view>
 </view>
 <view class='option'>
   <image class='option-img' src='/images/svg/ico_question.svg'></image>

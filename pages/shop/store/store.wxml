@@ -2,9 +2,9 @@
 <navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">超市</view></navbar>
 <!-- 搜索栏 -->
 <view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px">
-	<view class="search-list">
+	<view class="search-list" bindtap='searchFocus'>
 		<icon class='searchcion' size='14' type="search"></icon>
-		<input type="text" placeholder="搜索" confirm-type="search" bindinput="searchIcon" bindfocus="searchFocus"></input>
+		<input type="text" placeholder="搜索" confirm-type="search" disabled></input>
 	</view>
 </view>
 

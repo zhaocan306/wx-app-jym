@@ -58,6 +58,7 @@
 /* 购物车 */
 .hide{
   display: none;
+  transition: transform 0.2s;
 }
 .car-detail{
   width: 100%;
@@ -66,6 +67,7 @@
   z-index: 1024;
   left: 0;
   bottom: 0;
+  transition: transform 0.2s;
 }
 .car-detail .mask {
   width: 100%;
