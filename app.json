@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/message/password_reback/password_reback",
     "pages/index/index/index",
     "pages/login/index/index",
     "pages/login/login/login",
