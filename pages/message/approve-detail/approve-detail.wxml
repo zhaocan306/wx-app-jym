@@ -1,0 +1,9 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">个人信息</view></navbar>
+<!-- 列表 -->
+<view class='list'>
+  <view class='item' wx:for="{{list}}" wx:key>
+    <text class='name'>{{item.name}}</text>
+    <text class='tip'>{{item.value}}</text>
+  </view>
+</view>

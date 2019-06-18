@@ -70,6 +70,19 @@
 	transform: none;
 	transition: all 0.2s ease-in 0s;
 }
+swiper.square-dot .wx-swiper-dot {
+	background-color: var(--white);
+	opacity: 0.4;
+	width: 10rpx;
+	height: 10rpx;
+	border-radius: 20rpx;
+	margin: 0 8rpx !important;
+}
+
+swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
+	opacity: 1;
+	width: 30rpx;
+}
 /* 优惠活动 */
 .active {
   padding-top: 32rpx;

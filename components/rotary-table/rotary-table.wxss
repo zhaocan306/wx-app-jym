@@ -1,0 +1,76 @@
+.canvas-container {
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:206rpx;
+  left:50%;
+  margin-left:-310rpx;
+}
+
+.gb-wheel-content {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.canvas-list {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: inherit;
+   height: inherit;
+   z-index: 8;
+}
+
+.canvas-item2 {
+   position: absolute;
+   left: 0px;
+   top: 0;
+   color: #e4370e;
+   font-weight: bold;
+   overflow: hidden;
+}
+
+.canvas-item2-after {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 1;
+   width: 156rpx;
+   height: 156rpx;
+   transform-origin: 154px 154px;
+}
+
+.gb-wheel-list {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9;
+}
+
+.gb-wheel-item {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+}
+
+.gb-wheel-icontent {
+  font-size:28rpx;
+  line-height:33rpx;
+  width:26rpx;
+  padding-top: 40rpx;
+  margin: 0 auto;
+}
+.rotary_img {
+  width: 148rpx;
+  height: 165rpx;
+  position: absolute;
+  z-index: 999;
+}

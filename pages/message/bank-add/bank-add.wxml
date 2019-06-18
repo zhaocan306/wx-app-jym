@@ -1,0 +1,42 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">绑定银行卡</view></navbar>
+<!-- 标题 -->
+<view class='add'>
+  <view class='title'>
+    <text class='name'>绑定银行卡</text>
+    <text class='tip'>添加个人银行卡信息</text>
+  </view>
+  <view class='list'>
+    <label class='la-name'>姓名</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入持卡人姓名' placeholder-style='font-size: 32rpx;color: #C7C7CC;' auto-focus></input>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>卡号</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入卡号' placeholder-style='font-size: 32rpx;color: #C7C7CC;' type='number'></input>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>开户银行</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入开户银行' placeholder-style='font-size: 32rpx;color: #C7C7CC;'></input>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>开户支行</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入开户支行' placeholder-style='font-size: 32rpx;color: #C7C7CC;'></input>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>留存电话</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入留存电话' placeholder-style='font-size: 32rpx;color: #C7C7CC;' type='number' maxlength='11'></input>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='btn'>确认</view>
+  </view>
+</view>

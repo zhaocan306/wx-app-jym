@@ -1,9 +1,6 @@
 <!-- 自定义顶部栏 -->
-<view class='cu-custom'>
-  <view class="cu-bar fixed" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-    <view class='content text-white' style='top:{{StatusBar}}px;'>登录</view>
-  </view>
-</view>
+<navbar><view slot="content" class='text-white'>登录</view></navbar>
+
 <view class='login'>
   <!-- 背景图 -->
   <image class='bg-login' src='/images/png/bg-login.jpg'></image>
@@ -14,4 +11,5 @@
     <text class='login-text' bindtap='toLogin'>手机号码登录</text>
   </view>
 </view>
-<text class='footer-title'>欢迎登录家有马管家服务</text>
+<!-- 登录尾注 -->
+<text class='login-footer'>欢迎登录家有马管家服务</text>

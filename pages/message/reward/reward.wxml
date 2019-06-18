@@ -1,0 +1,37 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">幸运大转盘</view></navbar>
+<view class='reward'>
+  <!-- 背景图 -->
+  <image class="reward-img" src='/images/png/bg_reward.jpg'></image>
+  <!-- 转盘 -->
+  <Rotary id='zhuanpan' 
+    bind:myData='getData' 
+    bind:myAwards="getAwards" 
+    bind:startZhuan="startZhuan" 
+    size='{{size}}' 
+    musicflg='{{musicflg}}' 
+    fastJuedin='{{fastJuedin}}' 
+    repeat='{{repeat}}' 
+    zhuanpanArr='{{xiaojuedingArr}}' 
+    awardsConfig='{{awardsConfig}}'/>
+  <!-- 中奖名单 -->
+  <view class='reward-list'>
+    <text class='title'>100%中奖，中奖名单</text>
+    <scroll-view class='table-wrap' scroll-y>
+      <view class='table'>
+        <view class="tr">
+          <view class="th th1">用户名</view>
+          <view class="th th2">奖品</view>
+          <view class="th th3">手机号</view>
+          <view class="th th4">一键聊天</view>
+        </view>
+        <view class="tr" wx:for="{{15}}">
+          <view class="td td1">家有马</view>
+          <view class="td td2">和成天下</view>
+          <view class="td td3">13838384438</view>
+          <view class="td td4"><view class='btn'>一键聊天</view></view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

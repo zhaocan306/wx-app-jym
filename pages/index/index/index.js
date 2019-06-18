@@ -42,6 +42,7 @@ Page({
     this.setData({
       PageCur: 'message'
     })
+    this.selectComponent("#messages").getData();
   },
   // 跳转到商店页面
   toShopping() {

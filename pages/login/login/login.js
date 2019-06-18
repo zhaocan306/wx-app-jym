@@ -1,11 +1,5 @@
-// pages/login/login/login.js
 import { toast } from '../../../utils/util.js';
-
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
     isCode: true,
     isColor: false,
@@ -52,7 +46,7 @@ Page({
       isCodes: true
     })
   },
-  // 发送验证码
+  /** 发送验证码 */
   getCode() {
     let self = this;
     this.setData({
@@ -69,7 +63,7 @@ Page({
     }, 1000);
     toast('验证码已发送');
   },
-  // 清除定时器
+  /** 清除定时器 */
   clearTimeOut() {
     if (!this.data.isCode) {
       this.setData({
@@ -81,7 +75,9 @@ Page({
       clearInterval(this.data.timeOut)
     }
   },
+  /** 登录到主页 */
   toIndex() {
+    if(!this.data.phone && !this.data.code)return
     wx.navigateTo({
       url: '/pages/index/index/index'
     })

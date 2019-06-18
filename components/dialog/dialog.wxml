@@ -1,8 +1,8 @@
-<view class="cu-modal {{isShow?'show':''}}">
+<view class="cu-modal {{isShow?'show':''}}" catchtouchmove='touchMove'>
   <view class="cu-dialog">
     <view class='content'>
-      <text class='title'>取消订单</text>
-      <text class='describe'>是否取消订单</text>
+      <text class='title'>{{title}}</text>
+      <text class='describe'>{{content}}</text>
     </view>
     <view class='footer'>
       <view class='btn btn-border' bindtap='showModal'>是</view>

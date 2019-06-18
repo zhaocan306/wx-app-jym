@@ -1,0 +1,21 @@
+<view class="canvas-container">
+   <!-- 外围边框 -->
+   <view animation="{{animationData}}" class="gb-wheel-content" style='width:{{size.w}}rpx;height:{{size.h}}rpx;'>
+    <!-- 扇形颜色背景 -->
+    <view class="canvas-list">
+      <view class="canvas-item2" wx:for="{{awardsConfig.awards}}" wx:key="key" style="transform: rotate({{item.item2Deg}});background-color:{{awardsConfig.awards.length==2?item.color:''}};opacity:{{awardsConfig.awards.length==2?item.opacity:awardsConfig.awards.length==3?item.opacity:''}};width:{{size.h}}rpx;height:{{size.h/2-2}}rpx;transform-origin:{{size.h/2}}rpx {{size.h/2}}rpx">
+        <view class="canvas-item2-after" style="transform: rotate({{item.afterDeg}});background-color:{{item.color}};opacity:{{awardsConfig.awards.length==3?'':item.opacity}};width:{{size.h/2+4}}rpx;height:{{size.h/2+4}}rpx;"></view>
+         </view>
+    </view>
+    <!-- 选项内容 -->
+    <view class="gb-wheel-list">
+      <view class="gb-wheel-item" data-index="{{index}}" wx:for="{{awardsConfig.awards}}" wx:key='key'>
+        <view class="gb-wheel-icontent" style="transform: rotate({{item.item3Deg}});transform-origin: 50% {{size.h/2-2}}rpx">
+          <text style='word-break:break-all;'>{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+   </view>
+   <!-- 转盘中间的按钮 -->
+   <image bindtap="_zhuan" src='/images/png/icon_arrow.png' class='rotary_img'></image>
+</view>

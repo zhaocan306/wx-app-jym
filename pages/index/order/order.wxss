@@ -60,6 +60,9 @@ page {
   display: flex;
   align-items: center;
 }
+.swiper-list .swiper-item:last-child {
+  margin-bottom: 20rpx;
+}
 .swiper-item .good-img {
   width: 104rpx;
   height: 104rpx;

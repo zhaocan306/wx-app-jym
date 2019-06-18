@@ -4,7 +4,15 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    isShow: Boolean
+    isShow: Boolean,
+    title: {
+      type: String,
+      value: '取消订单'
+    },
+    content: {
+      type: String,
+      value: '是否取消订单?'
+    }
   },
 
   /**
@@ -18,6 +26,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    touchMove() {
+
+    },
     hideModal() {
       this.triggerEvent('cancel')
     },

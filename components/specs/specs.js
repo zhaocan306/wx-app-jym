@@ -18,6 +18,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    touchMove() {
+      
+    },
     hideModal() {
       this.triggerEvent('cancel')
     },

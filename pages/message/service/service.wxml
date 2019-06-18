@@ -1,0 +1,29 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">售后服务</view></navbar>
+<view class='service'>
+  <view class='card'>
+    <view class='navbar'>
+      <image class='good-img' src='/images/svg/Bitmap.svg'></image>
+      <view class='good-detail'>
+        <view class='title'>
+          <text>统一冰红茶、张新发槟榔2件商品</text>
+        </view>
+        <view class='goods-price bg-reds'>
+          <text class='curr'>￥</text>
+          <text class='member'>13.7</text>
+        </view>
+        <view class='good-option'>
+          <text class='time'>下单时间：13:14:14</text>
+          <view class='btn' bindtap='toDetail'>订单详情</view>
+        </view>
+      </view>
+    </view>
+    <view class='footer'>
+      <view class='title'>
+        <image src='/images/svg/ico_tuikuang.svg'></image>
+        <text class='tip'>售后处理中</text>
+      </view>
+      <view class='btn call' bindtap='toPhone'>拨打客服电话</view>
+    </view>
+  </view>
+</view>

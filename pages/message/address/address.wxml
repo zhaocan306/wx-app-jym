@@ -1,0 +1,26 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">我的地址</view></navbar>
+<!-- 地址列表 -->
+<scroll-view class='address' scroll-y>
+  <view class='address-list' wx:for="{{list}}" wx:key>
+    <view class='address-content'>
+      <view class='detail'>
+        <text class='name'>{{item.name}}</text>
+        <text class='text range'>{{item.sex}}</text>
+        <text class='text'>{{item.phone}}</text>
+      </view>
+      <text class='road'>{{item.address}}</text>
+    </view>
+    <view class='address-option'>
+      <image src='/images/svg/ico_write.svg' bindtap='edit'></image>
+      <image class='img-range' src='/images/svg/ico_close_address.svg' bindtap='remove'></image>
+    </view>
+  </view>
+</scroll-view>
+<!-- 新增地址按钮 -->
+<view class='add' bindtap='add'>
+  <image src='/images/svg/ico_add_address.svg'></image>
+  <text class='name'>新增收货地址</text>
+</view>
+<!-- 删除弹窗 -->
+<Dialog isShow="{{isShow}}" title="{{title}}" content="{{content}}" bind:cancel="cancelRemove" bind:confirm="confirmRemove"/>

@@ -49,5 +49,11 @@ Page({
     this.setData({
       type: e.detail.value
     })
+  },
+  // 修改地址
+  toAdress() {
+    wx.navigateTo({
+      url: '/pages/message/address/address'
+    })
   }
 })

@@ -62,5 +62,8 @@ Page({
     wx.navigateTo({
       url: '/pages/shop/receipt/receipt'
     })
+  },
+  touchMove() {
+    
   }
 })

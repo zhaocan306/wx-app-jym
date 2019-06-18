@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/message/password_reback/password_reback",
     "pages/index/index/index",
     "pages/login/index/index",
     "pages/login/login/login",
@@ -18,7 +17,20 @@
     "pages/message/edit-name/edit-name",
     "pages/message/edit-phone/edit-phone",
     "pages/message/edit-member/edit-member",
-    "pages/message/wallet/wallet"
+    "pages/message/wallet/wallet",
+    "pages/message/password_reback/password_reback",
+    "pages/message/coupons/coupons",
+    "pages/message/reward/reward",
+    "pages/message/service/service",
+    "pages/message/address/address",
+    "pages/message/address-edit/address-edit",
+    "pages/message/approve/approve",
+    "pages/message/approve-detail/approve-detail",
+    "pages/message/approve-validation/approve-validation",
+    "pages/message/bank/bank",
+    "pages/message/bank-add/bank-add",
+    "pages/message/assess/assess",
+    "pages/message/steward/steward"
   ],
   "window": {
     "backgroundTextStyle": "light",

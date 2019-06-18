@@ -91,34 +91,42 @@ const deliveryList = [
 const messageList = [
   {
     name: '幸运大转盘',
+    type: 1,
     img: '/images/svg/ico_my_luck.svg'
   },
   {
     name: '我的地址',
+    type: 2,
     img: '/images/svg/ico_my_dizhi.svg'
   },
   {
     name: '售后服务',
+    type: 3,
     img: '/images/svg/ico_my_service.svg'
   },
   {
     name: '个人认证',
+    type: 4,
     img: '/images/svg/ico_my_renzheng.svg'
   },
   {
     name: '绑定银行卡',
+    type: 5,
     img: '/images/svg/ico_my_card.svg'
   },
   {
     name: '设置支付密码',
+    type: 6,
     img: '/images/svg/ico_my_password.svg'
   },
   {
     name: '我的评价',
+    type: 7,
     img: '/images/svg/ico_my_com.svg'
   },
   {
     name: '管家服务',
+    type: 8,
     img: '/images/svg/ico_my_window.svg'
   }
 ]

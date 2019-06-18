@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "Rotary": "/components/rotary-table/rotary-table"
+  }
+}

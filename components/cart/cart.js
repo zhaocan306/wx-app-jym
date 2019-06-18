@@ -18,6 +18,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    touchMove() {
+
+    },
     // 显示购物车
     onShowCart() {
       this.triggerEvent('show')

@@ -1,0 +1,66 @@
+/* pages/message/coupons/coupons.wxss */
+.coupons {
+  position: relative;
+  height: 100%;
+  margin: 24rpx 48rpx;
+}
+.coupons .card {
+  height: 180rpx;
+  box-shadow: 0 2rpx 24rpx 0 rgba(37,93,255,0.10);
+  border-radius: 12rpx;
+  display: flex;
+}
+.coupons .card:nth-child(2n) {
+  margin: 24rpx 0;
+}
+.coupons .card .item {
+  width: 486rpx;
+  height: 100%;
+  padding: 24rpx;
+}
+.coupons .card .item .name {
+  height: 50rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #333333;
+  display: block;
+}
+.coupons .card .item .tip {
+  font-size: 24rpx;
+  color: #999999;
+}
+.coupons .card .item .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coupons .card .item .range {
+  padding-top: 8rpx;
+  padding-bottom: 6rpx;
+  display: block;
+}
+.coupons .card .item image {
+  width: 24rpx;
+  height: 24rpx;
+}
+.coupons .card .price {
+  width: 168rpx;
+  height: 100%;
+  background-image: linear-gradient(-180deg, #0099FF 4%, #3642FF 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 12rpx 12rpx 0;
+}
+.coupons .card .price .text {
+  font-family: DINAlternate-Bold;
+  font-size: 96rpx;
+  color: #fff;
+}
+.coupons .card .price .icon {
+  letter-spacing:-13rpx;
+  font-size:50rpx;
+  padding-top:30rpx;
+
+}

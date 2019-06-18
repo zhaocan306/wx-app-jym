@@ -1,0 +1,118 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">管家服务</view></navbar>
+<!-- 列表 -->
+<view class='navbar'>
+  <block wx:for="{{tabs}}" wx:key="*this">
+      <view id="{{index}}" class="navbar-item {{tab1Index==index?'bar-item-on':''}}" data-index='{{index}}' bindtap='onTab1Click'>
+        <view class='navbar-title'>{{item}}</view>
+      </view>
+  </block>
+  <view class="navbar-slider" style="left: {{sliderLeft}}px;transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+</view>
+<!-- 内容 -->
+<swiper duration='200' bindanimationfinish="animationfinish" current="{{tab1Index}}" data-index='{{tab1Index}}' class='swiper-list'>
+    <swiper-item wx:for="{{tabs}}" wx:key="*this">
+    <scroll-view scroll-y style='height:100%;'>
+      <block wx:for="{{list}}" wx:key wx:for-item="newitem">
+          <view class='card' wx:if="{{tab1Index === 0 && tab1Index === newitem.code}}">
+            <view class='item'>
+              <label class='la-name'>房间号</label>
+              <text class='tip'>{{newitem.room}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>预约时间</label>
+              <text class='tip'>{{newitem.time}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>打扫类型</label>
+              <text class='tip'>{{newitem.type}}</text>
+            </view>
+          </view>
+          <view class='card' wx:if="{{tab1Index === 1 && tab1Index === newitem.code}}">
+            <view class='item'>
+              <label class='la-name'>发票类型</label>
+              <text class='tip'>{{newitem.type}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>发票金额</label>
+              <text class='tip'>{{newitem.price}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>发票抬头</label>
+              <text class='tip'>{{newitem.head}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>发票税号</label>
+              <text class='tip'>{{newitem.number}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>发票备注</label>
+              <text class='tip'>{{newitem.remarks}}</text>
+            </view>
+          </view>
+          <view class='card' wx:if="{{tab1Index === 2 && tab1Index === newitem.code}}">
+            <view class='item'>
+              <label class='la-name'>投诉时间</label>
+              <text class='tip'>{{newitem.time}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>投诉类型</label>
+              <text class='tip'>{{newitem.type}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>投诉内容</label>
+              <text class='tip'>{{newitem.content}}</text>
+            </view>
+          </view>
+          <view class='card' wx:if="{{tab1Index === 3 && tab1Index === newitem.code}}">
+            <view class='item'>
+              <label class='la-name'>报修类型</label>
+              <text class='tip'>{{newitem.type}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>报修内容</label>
+              <text class='tip'>{{newitem.content}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>报修时间</label>
+              <text class='tip'>{{newitem.time}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>报修房间</label>
+              <text class='tip'>{{newitem.room}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>联系人</label>
+              <text class='tip'>{{newitem.phone}}</text>
+            </view>
+          </view>
+          <view class='card' wx:if="{{tab1Index === 4 && tab1Index === newitem.code}}">
+            <view class='item'>
+              <label class='la-name'>缴费单位</label>
+              <text class='tip'>{{newitem.unit}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>户号</label>
+              <text class='tip'>{{newitem.id}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>报修时间</label>
+              <text class='tip'>{{newitem.cleanTime}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>住址</label>
+              <text class='tip'>{{newitem.address}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>金额</label>
+              <text class='tip'>{{newitem.price}}</text>
+            </view>
+            <view class='item'>
+              <label class='la-name'>缴费时间</label>
+              <text class='tip'>{{newitem.time}}</text>
+            </view>
+          </view>
+        </block>
+        </scroll-view>
+    </swiper-item>
+</swiper>

@@ -1,0 +1,113 @@
+/* pages/message/assess/assess.wxss */
+.assess {
+  position: relative;
+  height: 100%;
+  margin: 0 30rpx;
+}
+.assess .list {
+  width: 690rpx;
+  height: 496rpx;
+  line-height: 496rpx;
+  box-shadow: 0 2rpx 0 0 rgba(0,0,0,0.10);
+  margin-bottom: 2rpx;
+  padding-bottom: 48rpx;
+  padding-top: 26rpx;
+}
+.assess .list:last-child {
+  margin-bottom:30rpx;
+}
+.assess .navbar {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  align-items: center;
+}
+.assess .head {
+  width: 80rpx;
+  height: 80rpx;
+}
+.assess .title {
+  flex: 1;
+  font-size: 28rpx;
+  color: #000000;
+  padding-left: 16rpx;
+}
+.assess .time {
+  font-size: 24rpx;
+  color: #333333;
+}
+.assess .star {
+  display: flex;
+  align-items: center;
+  height: 32rpx;
+  line-height: 32rpx;
+  padding-left: 98rpx;
+}
+.assess .star text {
+  font-size: 24rpx;
+  color: #999999;
+  margin-right: 12rpx;
+}
+.assess .star image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.assess .comment {
+  display: flex;
+  margin: 24rpx 0 24rpx 98rpx;
+  height: 160rpx;
+  line-height: 40rpx;
+  width: 592rpx;
+  font-size: 28rpx;
+  color: #333333;
+}
+.assess .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 102rpx;
+  line-height: 102rpx;
+  background: #F8F8F8;
+  margin-left: 98rpx;
+  padding-left: 24rpx;
+}
+.assess .footer image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.assess .footer .detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 12rpx;
+}
+.footer .good {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 44rpx;
+  height: 44rpx;
+}
+.footer .name {
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #000000;
+  width: 308rpx;
+}
+.footer .price {
+  padding-left: 12rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #999999;
+}
+.footer .arrow {
+  width: 48rpx!important;
+  height: 48rpx!important;
+}
+.footer .tip {
+  display: inline-block;
+  height: 34rpx;
+  line-height: 34rpx;
+  font-size: 24rpx;
+  color: #999999;
+}

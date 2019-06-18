@@ -16,7 +16,7 @@
     </view>
   </view>
 </view>
-<view class='address'>
+<view class='address' bindtap='toAdress'>
   <view class='edit-list range'>
     <text class='name'>我的地址</text>
     <view class='footer'>

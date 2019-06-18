@@ -1,0 +1,21 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">银行卡</view></navbar>
+<!-- 银行卡列表 -->
+<scroll-view class='bank' scroll-y>
+  <view class='card' wx:for="{{4}}" wx:key>
+    <view class='navbar'>
+      <text class='title'>招商银行</text>
+      <text class='tip'>个人隐私保护中</text>
+    </view>
+    <text class='tip'>储蓄卡</text>
+    <view class='footer'>
+      <text class='la-name'>*** **** *****676</text>
+      <!-- <text class='tip'>查看详情</text> -->
+    </view>
+  </view>
+</scroll-view>
+<!-- 新增银行卡按钮 -->
+<view class='add' bindtap='add'>
+  <image src='/images/svg/ico_add_address.svg'></image>
+  <text class='name'>新增银行卡</text>
+</view>

@@ -16,7 +16,7 @@
     <text class='la-name number'>3.2</text>
     <text class='tip'>我的钱包</text>
   </view>
-  <view class='item'>
+  <view class='item' bindtap='toCoupons'>
     <text class='la-name name'>优惠券</text>
     <text class='tip'>优惠券</text>
   </view>
@@ -27,7 +27,7 @@
 </view>
 <!-- 操作列表 -->
 <view class='message-footer'>
-  <view class='message-list' wx:for="{{messageList}}" wx:key>
+  <view class='message-list' wx:for="{{messageList}}" wx:key data-type='{{item.type}}' bindtap='toDetail'>
     <image class='icon' src='{{item.img}}'></image>
     <text class='name'>{{item.name}}</text>
     <image class='icon' src='/images/svg/ico_more_gray.svg'></image>

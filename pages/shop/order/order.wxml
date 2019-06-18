@@ -99,7 +99,7 @@
 <!-- 下面的购物车 -->
 <Cart isCart="{{isCart}}" bind:show="onShowCart" bind:hide="onHideCart"/>
 <!-- 选择配送时间 -->
-<view class="delivery-time {{!isDelivery?'hide':''}}">
+<view class="delivery-time {{!isDelivery?'hide':''}}" catchtouchmove='touchMove'>
   <view class="mask" bindtap='onHideDelivery'></view>
   <view class="delivery-list {{!isDelivery?'':'translate-y'}}">
     <view class='title'>选择送达时间</view>

@@ -1,25 +1,20 @@
-/* pages/login/login/login.wxss */
-.title {
+/* 注册标题 */
+.login-title {
   font-family: PingFangSC-Medium;
   font-size: 48rpx;
   color: #000000;
-  letter-spacing: 0;
-  text-align: center;
   margin-left: 60rpx;
   margin-top: 82rpx;
 }
-.phone,.code input {
-  caret-color:#0099FF!important;
-}
+/* 输入框 */
 .phone {
   margin:184rpx 30rpx 0 30rpx;
   padding:20rpx 30rpx;
   display:flex;
   align-content:space-between;
   border-bottom:1rpx solid #F4F4F4;
-  box-sizing:border-box;
 }
-.phone-number {
+.phone .phone-number {
   color: #000000;
   font-size: 32rpx;
   flex: 1;
@@ -44,19 +39,4 @@
 }
 .login-btn {
   margin-top: 322rpx;
-}
-.login-btn .btn {
-  width:466rpx;
-  height:88rpx;
-  background: linear-gradient(to right, #0099FF, #3642FF);
-  color:#fff;
-  font-family:PingFangSC-Regular;
-  font-size:30rpx;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  border-radius: 12rpx;
-}
-.disabled {
-  opacity: 0.2;
 }

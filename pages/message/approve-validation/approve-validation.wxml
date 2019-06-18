@@ -1,0 +1,54 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">实名认证</view></navbar>
+<!-- 标题 -->
+<view class='validation'>
+  <view class='title'>
+    <text class='name'>实名认证</text>
+    <text class='tip'>完善个人信息</text>
+  </view>
+  <view class='list'>
+    <label class='la-name'>姓名</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入姓名' placeholder-style='font-size: 32rpx;color: #C7C7CC;' auto-focus></input>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>身份证</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入身份证号码' placeholder-style='font-size: 32rpx;color: #C7C7CC;' type='number' maxlength='18'></input>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>性别</label>
+    <view class='input'>
+      <picker class='input-number' bindchange="PickerChange" value="{{index}}" range="{{sixList}}">
+        <view wx:if="{{type}}">
+          {{sixList[type]}}
+        </view>
+        <view class='picker' wx:else>请选择性别</view>
+      </picker>
+    </view>
+  </view>
+  <view class='list'>
+    <label class='la-name'>手机号码</label>
+    <view class='input'>
+      <input class='input-number' placeholder='请输入手机号' placeholder-style='font-size: 32rpx;color: #C7C7CC;' type='number' maxlength='11'></input>
+    </view>
+  </view>
+  <view class='camera'>
+    <label class='la-name'>拍照上传</label>
+    <view class='upload'>
+      <view class='card' bindtap='upLoad'>
+        <image src='/images/svg/ico_add_image.svg'></image>
+        <text class='card-name'>身份证正面</text>
+      </view>
+      <view class='card' bindtap='upLoad'>
+        <image src='/images/svg/ico_add_image.svg'></image>
+        <text class='card-name'>身份证反面</text>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='btn'>确认</view>
+  </view>
+</view>

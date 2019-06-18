@@ -8,7 +8,7 @@
   <view class='cart-btn success' bindtap='Settlement'>结算</view>
 </view>
 <view class="car-detail {{!isCart?'hide':''}}">
-  <view class="mask" bindtap='onHideCart'></view>
+  <view class="mask" bindtap='onHideCart' catchtouchmove='touchMove'></view>
   <view class="car-list {{!isCart?'':'translate-y'}}">
     <view class='car-tips'>还差2元免配送费，去凑单</view>
     <view class='title'>

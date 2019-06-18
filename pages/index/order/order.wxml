@@ -14,9 +14,9 @@
   <view class="navbar-slider" style="left: {{sliderLeft}}px;transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
 </view>
 <!-- 内容区  swiper -->
-<!-- <scroll-view scroll-y style='height:calc(100% - 200rpx);'> -->
   <swiper duration='200' bindanimationfinish="animationfinish" current="{{tab1Index}}" data-index='{{tab1Index}}' class='swiper-list'>
-      <swiper-item wx:for="{{tabs}}" wx:key="*this">
+    <swiper-item wx:for="{{tabs}}" wx:key="*this">
+      <scroll-view scroll-y style='height:100%;'>
         <view wx:for="{{list}}" wx:key wx:for-item="newitem" class='swiper-item' wx:if="{{newitem.status === tab1Index || tab1Index === 0}}">
           <image class='good-img' src='{{newitem.img}}' bindtap='toDetail'></image>
           <view class='content'>
@@ -45,6 +45,6 @@
             </view>
           </view>
         </view>
-      </swiper-item>
+        </scroll-view>
+    </swiper-item>
   </swiper>
-<!-- </scroll-view> -->

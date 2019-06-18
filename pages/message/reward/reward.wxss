@@ -1,0 +1,136 @@
+/* pages/message/reward/reward.wxss */
+.reward {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+.reward .reward-img {
+  height: 1598rpx;
+  width: 100%;
+}
+/* 转盘 */
+.canvas-container {
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:206rpx;
+  left:50%;
+  margin-left:-310rpx;
+}
+.gb-wheel-content {
+  box-shadow: 0 0 5rpx 0rpx rgba(0, 0, 0, 0.98);
+  width: 620rpx;
+  height: 620rpx;
+  border-radius: 50%;
+  border: 30rpx solid #f1ecec;
+  box-sizing: border-box;
+  opacity: 0.7;
+}
+.canvas-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  z-index: 8;
+}
+.canvas-item2 {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 660rpx;
+  height: 328rpx;
+  color: #e4370e;
+  font-weight: bold;
+  transform-origin: 330rpx 330rpx;
+}
+.canvas-item2-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 330rpx;
+  height: 330rpx;
+  transform-origin: 330rpx 330rpx;
+  opacity: 1;
+}
+/* 中奖名单 */
+.reward-list {
+  width: 690rpx;
+  height: 478rpx;
+  margin: 0 30rpx;
+  position: absolute;
+  bottom: 48rpx;
+  border-radius: 16rpx;
+  background: #fff;
+  box-shadow: 0 2rpx 24rpx 0 rgba(37,93,255,0.10);
+}
+.reward-list .title {
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  vertical-align: middle;
+  background-image: linear-gradient(-180deg, #0099FF 4%, #3642FF 98%);
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  border-radius:16rpx 16rpx 0 0;
+}
+.reward-list .table-wrap {
+  position: absolute;
+  width: 100%;
+  height: 420rpx;
+  padding: 24rpx 20rpx 48rpx 20rpx;
+}
+.table-wrap .table {
+  border-right:0;
+  border-bottom: 0;
+}
+.tr{
+  width:100%;
+  display: flex;
+  align-items: center;
+  padding: 10rpx 0;
+}
+.th,.td{
+  padding: 10rpx;
+  text-align: center;
+  display: inline-block;
+}
+.th1,.td1 {
+  width: 20%;
+  text-align: left;
+}
+.th2,.td2 {
+  width: 20%;
+}
+.th3,.td3 {
+  width: 35%;
+}
+.th4,.td4 {
+  width: 25%;
+  text-align: right;
+}
+.td4 .btn {
+  width: 126rpx;
+  height: 48rpx;
+  background-image: linear-gradient(-180deg, #0099FF 4%, #3642FF 98%);
+  border-radius: 8rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx!important;
+  color: #FFFFFF!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20rpx;
+}
+.th{
+  font-size: 32rpx;
+  color: #000000;
+}
+.td{
+  font-size: 26rpx;
+  color: #6E6E6E;
+}

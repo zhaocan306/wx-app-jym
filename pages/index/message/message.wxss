@@ -63,6 +63,7 @@
 }
 .message-middle .item .la-name {
   line-height: 64rpx;
+  height: 64rpx;
   font-family: DINAlternate-Bold;
   color: #333333;
   display: block;
@@ -74,7 +75,7 @@
 }
 .message-middle .item .name {
   font-size: 32rpx;
-  font-weight: 600;
+  font-weight: 700;
 }
 .message-middle .item .tip {
   font-size: 22rpx;

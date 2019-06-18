@@ -1,0 +1,77 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">我的评价</view></navbar>
+<!-- 列表 -->
+<scroll-view class='assess'>
+  <view class='list'>
+    <view class='navbar'>
+      <image class='head' src='/images/png/head.png'></image>
+      <text class='title'>家有马</text>
+      <text class='time'>2019-05-20</text>
+    </view>
+    <view class='star'>
+      <text>打分</text>
+      <image wx:for="{{3}}" wx:key src='{{starCheckedImgUrl}}'></image>
+      <image wx:for="{{2}}" wx:key src='{{starUnCheckedImgUrl}}'></image>
+    </view>
+    <view class='comment'>商品不错！下次再来！商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来～来商品不错！下次...</view>
+    <view class='footer' bindtap='toDetail'>
+      <image src='/images/svg/Bitmap.svg'></image>
+      <view class='detail'>
+        <view class='good'>
+          <text class='name'>统一冰红茶等4件商品</text>
+          <text class='price'>￥25</text>
+          <image class='arrow' src='/images/svg/ico_more_gray.svg'></image>
+        </view>
+        <text class='tip'>红茶</text>
+      </view>
+    </view>
+  </view>
+  <view class='list'>
+    <view class='navbar'>
+      <image class='head' src='/images/png/head.png'></image>
+      <text class='title'>家有马</text>
+      <text class='time'>2019-05-20</text>
+    </view>
+    <view class='star'>
+      <text>打分</text>
+      <image wx:for="{{3}}" wx:key src='{{starCheckedImgUrl}}'></image>
+      <image wx:for="{{2}}" wx:key src='{{starUnCheckedImgUrl}}'></image>
+    </view>
+    <view class='comment'>商品不错！下次再来！商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来～来商品不错！下次...</view>
+    <view class='footer' bindtap='toDetail'>
+      <image src='/images/svg/Bitmap.svg'></image>
+      <view class='detail'>
+        <view class='good'>
+          <text class='name'>统一冰红茶等4件商品</text>
+          <text class='price'>￥25</text>
+          <image class='arrow' src='/images/svg/ico_more_gray.svg'></image>
+        </view>
+        <text class='tip'>红茶</text>
+      </view>
+    </view>
+  </view>
+  <view class='list'>
+    <view class='navbar'>
+      <image class='head' src='/images/png/head.png'></image>
+      <text class='title'>家有马</text>
+      <text class='time'>2019-05-20</text>
+    </view>
+    <view class='star'>
+      <text>打分</text>
+      <image wx:for="{{3}}" wx:key src='{{starCheckedImgUrl}}'></image>
+      <image wx:for="{{2}}" wx:key src='{{starUnCheckedImgUrl}}'></image>
+    </view>
+    <view class='comment'>商品不错！下次再来！商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来商品不错！下次再来～来商品不错！下次...</view>
+    <view class='footer' bindtap='toDetail'>
+      <image src='/images/svg/Bitmap.svg'></image>
+      <view class='detail'>
+        <view class='good'>
+          <text class='name'>统一冰红茶等4件商品</text>
+          <text class='price'>￥25</text>
+          <image class='arrow' src='/images/svg/ico_more_gray.svg'></image>
+        </view>
+        <text class='tip'>红茶</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

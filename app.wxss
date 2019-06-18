@@ -1,6 +1,7 @@
 /**app.wxss**/
 @import '/styles/main.wxss';
 @import '/styles/icon.wxss';
+@import './styles/common.wxss';
 .container {
   height: 100%;
   display: flex;
@@ -14,29 +15,11 @@ text,view {
   font-family: PingFangSC-Regular;
   letter-spacing: 0;
 }
-.footer-title {
-  position: absolute;
-  bottom: 60rpx;
-  left: 50%;
-  margin-left: -132rpx;
-  font-size: 24rpx;
-  font-family: PingFangSC-Regular;
-  color:#D2D1D7;
-}
 input ::-webkit-input-placeholder {
   color: red;
 }
 .bg-order-blue {
   background: #0099FF;
-}
-.bg-nav {
-  background: #fff;
-}
-.bg-blues {
-  color: #0099FF!important;
-}
-.text-white {
-  color: #fff;
 }
 /* 价格显示 */
 .goods-price {

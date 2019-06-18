@@ -1,0 +1,19 @@
+<!-- 自定义顶部栏 -->
+<navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">优惠券</view></navbar>
+<!-- 优惠券 -->
+<view class='coupons'>
+  <view class='card' wx:for="{{list}}" wx:key>
+    <view class='item'>
+      <text class='name'>{{item.name}}</text>
+      <text class='tip range'>有效期：至{{item.time}}</text>
+      <view class='footer'>
+        <text class='tip'>满￥30使用</text>
+        <image src='/images/svg/icon_more.svg'></image>
+      </view>
+    </view>
+    <view class='price'>
+      <text class='icon text'>￥</text>
+      <text class='text'>{{item.price}}</text>
+    </view>
+  </view>
+</view>
