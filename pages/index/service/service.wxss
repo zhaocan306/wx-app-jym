@@ -1,3 +1,4 @@
+@import '/styles/common.wxss';
 .VerticalNav {
   display: flex;
   position: fixed;
@@ -8,6 +9,7 @@
   width: 224rpx;
   background: #fcfcfc;
   white-space:initial;
+  height:calc(100% - 170rpx);
 }
 .item-list .item {
   width: 100%;
@@ -28,11 +30,8 @@
   background: #3276FC;
   color: #ffffff!important;
 }
-.item-list .item image {
-  width: 48rpx;
-  height: 48rpx;
-}
 .VerticalNav .card {
   width:calc(100% - 224rpx);
   padding:40rpx 30rpx 0 66rpx;
+  height:calc(100% - 170rpx);
 }

@@ -1,4 +1,3 @@
-<!--pages/service/complaint/complint.wxml-->
 <text class='introduce'>尊敬的客人,您好! 我是酒店总经理，住店过程中您遇到的任何问题,都可以反馈给我,我会第一时间帮您解决。祝您住店愉快!</text>
 <view class='form-nav'>
   <view class='form-group'>

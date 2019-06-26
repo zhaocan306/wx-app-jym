@@ -1,13 +1,9 @@
-/* pages/shop/home/home.wxss */
+@import '/styles/common.wxss';
 .title {
   display: flex;
   position: relative;
   align-items: center;
   margin: 16rpx 0 18rpx 30rpx;
-}
-.title .land {
-  width: 48rpx;
-  height: 48rpx;
 }
 .title .address {
   width: 402rpx;
@@ -25,6 +21,9 @@
 .list {
   height: 222rpx;
   margin: 0 40rpx 24rpx 40rpx;
+}
+.list:last-child {
+  margin-bottom: 130rpx!important;
 }
 .list label {
   font-family: PingFangSC-Medium;

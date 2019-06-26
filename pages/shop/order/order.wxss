@@ -1,6 +1,9 @@
 /* pages/shop/order/order.wxss */
 .bg-order {
   height: 474rpx;
+  width: 100%;
+  position: absolute;
+  top: 0; 
   background: #0099FF;
 }
 /* 地址栏 */
@@ -10,6 +13,8 @@
   width: auto;
   margin: 24rpx 30rpx 0 30rpx;
   height:calc(100% - 320rpx);
+  box-shadow:0 2rpx 24rpx 0 rgba(37,93,255,0.10);
+  border-radius:32rpx;
 }
 .order .address {
   font-family: PingFangSC-Medium;
@@ -57,8 +62,6 @@
   width: 690rpx;
   min-height: 200rpx;
   background:#fff;
-  border-radius: 16px;
-  box-shadow: 0 2rpx 24rpx 0 rgba(37,93,255,0.10);
 }
 .order .good .good-list {
   width: 100%;
@@ -130,6 +133,7 @@
 }
 /* 小计 */
 .footer {
+  height: 100rpx;
   margin: 48rpx 30rpx;
   display: flex;
   align-items: center;
@@ -176,6 +180,7 @@
   z-index: 1026;
   background: #fff;
   transition: .5s all;
+  animation: slide-bottom 0.15s;
 }
 .delivery-time .translate-y{
   bottom: 0rpx;

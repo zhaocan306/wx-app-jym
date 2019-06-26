@@ -1,6 +1,7 @@
 import { toast } from '../../../utils/util.js';
 let windowWidth = 0;
 let itemWidth = 0;
+const app = getApp();
 Component({
   /**
    * 组件的属性列表
@@ -13,6 +14,9 @@ Component({
    * 组件的初始数据
    */
   data: {
+    StatusBar: app.globalData.StatusBar,
+    CustomBar: app.globalData.CustomBar,
+    Custom: app.globalData.Custom,
     sliderOffset: 0,
     sliderOffsets: [],
     sliderLeft: 0,
@@ -25,7 +29,7 @@ Component({
         status: 1,
         type: '待付款',
         time: '13:14:14',
-        img: 'https://www.jiayouma2018.com/upload_file/f2e96c7fd43141ac914c61f73c5083bf.png'
+        img: '/images/svg/Bitmap.svg'
       },
       {
         name: '统一冰红茶4件商品',
@@ -33,7 +37,7 @@ Component({
         status: 2,
         type: '待配送',
         time: '13:14:14',
-        img: 'https://www.jiayouma2018.com/upload_file/f2e96c7fd43141ac914c61f73c5083bf.png'
+        img: '/images/svg/Bitmap.svg'
       },
       {
         name: '统一冰红茶4件商品',
@@ -41,7 +45,7 @@ Component({
         status: 3,
         type: '已配送',
         time: '13:14:14',
-        img: 'https://www.jiayouma2018.com/upload_file/f2e96c7fd43141ac914c61f73c5083bf.png'
+        img: '/images/svg/Bitmap.svg'
       },
       {
         name: '统一冰红茶4件商品',
@@ -49,25 +53,13 @@ Component({
         status: 4,
         type: '已完成',
         time: '13:14:14',
-        img: 'https://www.jiayouma2018.com/upload_file/f2e96c7fd43141ac914c61f73c5083bf.png'
+        img: '/images/svg/Bitmap.svg'
       }
     ],
     isShow: false,
     isLoad: false
   },
   methods: {
-    /** 下拉刷新 */
-    onPullDownRefresh() {
-      this.setData({
-        isLoad: true
-      })
-    },
-    /** 停止下拉刷新 */
-    stopPullDownRefresh() {
-      this.setData({
-        isLoad: false
-      })
-    },
     /** 计算偏移量 */
     clueOffset() {
       var that = this;
@@ -95,6 +87,7 @@ Component({
         sliderOffset: this.data.sliderOffsets[index],
         tab1Index: index,
       })
+      this.selectComponent("#loadings").stopPullRefresh();
     },
     /** swiper-item 的位置发生改变的时候 切换tabbar */
     swiperTran(event) {
@@ -124,6 +117,34 @@ Component({
         sliderOffset: this.data.sliderOffsets[event.detail.current],
         tab1Index: event.detail.current,
       })
+    },
+    //触摸开始
+    handletouchstart(event) {
+      this.selectComponent("#loadings").handletouchstart(event)
+    },
+    //触摸移动
+    handletouchmove(event) {
+      this.selectComponent("#loadings").handletouchmove(event)
+    },
+    //触摸结束
+    handletouchend(event) {
+      this.selectComponent("#loadings").handletouchend(event)
+    },
+    //触摸取消
+    handletouchcancel(event) {
+      this.selectComponent("#loadings").handletouchcancel(event)
+    },
+    //页面滚动
+    onPageScroll(event) {
+      this.selectComponent("#loadings").onPageScroll(event)
+    },
+    onPullDownRefresh() {
+      setTimeout(() => {
+        this.selectComponent("#loadings").stopPullRefresh();
+      }, 2000)
+    },
+    _pullState() {
+
     },
     /** 点击取消订单 显示弹窗 */
     clikCancelOrder() {

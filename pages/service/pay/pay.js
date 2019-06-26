@@ -7,9 +7,11 @@ Component({
 
   },
   methods: {
-    toPlaying() {
+    // 跳转到缴费页面
+    toPlaying(e) {
+      let title = e.currentTarget.dataset.type
       wx.navigateTo({
-        url: '/pages/service/payment/payment',
+        url: '/pages/service/payment/payment?title=' + title,
       })
     }
   }

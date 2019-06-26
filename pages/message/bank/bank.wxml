@@ -2,7 +2,7 @@
 <navbar isBack="{{true}}" bgColor="bg-nav"><view slot="content">银行卡</view></navbar>
 <!-- 银行卡列表 -->
 <scroll-view class='bank' scroll-y>
-  <view class='card' wx:for="{{4}}" wx:key>
+  <view class="card {{modalName=='move-box-'+ index?'move-cur':''}}" wx:for="{{4}}" wx:key bindtouchstart="ListTouchStart" bindtouchmove="ListTouchMove" bindtouchend="ListTouchEnd" data-target="move-box-{{index}}">
     <view class='navbar'>
       <text class='title'>招商银行</text>
       <text class='tip'>个人隐私保护中</text>
@@ -10,7 +10,9 @@
     <text class='tip'>储蓄卡</text>
     <view class='footer'>
       <text class='la-name'>*** **** *****676</text>
-      <!-- <text class='tip'>查看详情</text> -->
+    </view>
+    <view class='move'>
+      <view class='delete'>删除</view>
     </view>
   </view>
 </scroll-view>

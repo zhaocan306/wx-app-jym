@@ -2,7 +2,7 @@
 <navbar bgColor="bg-nav"><view slot="content">家有马管家服务</view></navbar>
 <!-- 地址显示 -->
 <view class="title">
-  <image class='land' src='/images/svg/ico_des.svg'></image>
+  <image class='img-fe' src='/images/svg/ico_des.svg'></image>
   <text class='address'>维也纳国际酒店</text>
   <image class='picker' src='/images/svg/ico_down_more.svg'></image>
 </view>

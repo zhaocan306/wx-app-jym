@@ -3,12 +3,6 @@ Page({
   data: {
     PageCur: 'home'
   },
-  onLoad() {
-
-  },
-  onShow() {
-
-  },
   onPullDownRefresh() {
     if (this.data.PageCur === 'order') {
       this.selectComponent("#orders").onPullDownRefresh();
@@ -27,6 +21,9 @@ Page({
     this.setData({
       PageCur: e.currentTarget.dataset.cur
     })
+    if (e.currentTarget.dataset.cur === 'service') {
+      this.selectComponent("#services").getData();
+    }
     if (e.currentTarget.dataset.cur === 'order') {
       this.selectComponent("#orders").clueOffset();
     }

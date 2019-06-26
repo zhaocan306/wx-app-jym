@@ -1,19 +1,17 @@
-// pages/shop/detail/detail.js
-const app = getApp();
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-    StatusBar: app.globalData.StatusBar,
-    CustomBar: app.globalData.CustomBar,
-    Custom: app.globalData.Custom,
+    cardCur: 0,
     swiperList: [
       "/images/svg/Bitmap.svg", "/images/svg/Bitmap.svg", "/images/svg/Bitmap.svg"
     ],
     isCart: false,
     isSpecs: false
+  },
+  // 轮播图切换
+  cardSwiper(e) {
+    this.setData({
+      cardCur: e.detail.current
+    })
   },
   // 显示购物车
   onShowCart() {

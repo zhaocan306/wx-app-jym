@@ -47,13 +47,14 @@
           <text class='goods-value' bindtap='toDetail'>销量1256</text>
           <view class='goods-btn'>
             <view class='goods-price' bindtap='toDetail'>
-              <text class='curr'>￥</text>
-              <text>{{newitem.price}}</text>
-              <text class='decimal'>.00</text>
+              <text class='curr-tf'>￥</text>
+              <text class='num-tt'>{{newitem.price}}</text>
+              <text class='num-tf'>.00</text>
             </view>
             <view class='goods-price member' bindtap='toDetail'>
-              <text class='curr'>￥</text>
-              <text class='decimal'>2.7</text>
+              <text class='curr-oe'>￥</text>
+              <text class='num-tf'>2</text>
+              <text class='num-oe'>.7</text>
             </view>
             <image class='vip' src='/images/svg/ico_vip.svg'></image>
             <text class='goods-change' bindtap='chooseNorms'>规格</text>

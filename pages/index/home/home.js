@@ -1,22 +1,14 @@
-// pages/home/home.js
 const app = getApp();
 Component({
-  /**
-   * 组件的属性列表
-   */
   properties: {
 
   },
-
-  /**
-   * 组件的初始数据
-   */
   data: {
     StatusBar: app.globalData.StatusBar,
     CustomBar: app.globalData.CustomBar,
     Custom: app.globalData.Custom,
     cardCur: 0,
-    img_urls: ["https://www.jiayouma2018.com/img/1.jpg", "https://www.jiayouma2018.com/img/2.jpg","https://www.jiayouma2018.com/img/4.jpg"],
+    img_urls: ["https://www.jiayouma2018.com/img/1.jpg", "https://www.jiayouma2018.com/img/2.jpg","https://www.jiayouma2018.com/img/1.jpg"],
     isHotel: false,
     isFacilities: false
   },

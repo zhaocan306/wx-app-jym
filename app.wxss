@@ -21,35 +21,3 @@ input ::-webkit-input-placeholder {
 .bg-order-blue {
   background: #0099FF;
 }
-/* 价格显示 */
-.goods-price {
-  font-family: DINAlternate-Bold;
-  font-size: 32rpx;
-  color: #151515;
-  letter-spacing:-7rpx;
-  width:auto;
-  display: flex;
-  align-items: center;
-}
-.curr {
-  font-size: 24rpx!important;
-  letter-spacing: -6rpx;
-  padding-top:5rpx;
-}
-.decimal {
-  font-size: 24rpx!important;
-  letter-spacing: -1rpx;
-}
-.bg-reds {
-  color: #FF0004!important;
-}
-.member {
-  color: #FF0004!important;
-  width:auto!important;
-  flex:1;
-}
-.vip {
-  width: 64rpx;
-  height: 32rpx;
-  margin-left: 12rpx;
-}

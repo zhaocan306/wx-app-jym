@@ -1,8 +1,10 @@
-/* pages/home/detail/detail.wxss */
 .detail-img {
   width: 100%;
   position: absolute;
   top: 0;
+} 
+.detail {
+  height: 518rpx;
 }
 .detail-img .detail-swiper {
   height: 518rpx;
@@ -16,8 +18,8 @@
 }
 /* 介绍 */
 .scrollView {
-  position:relative;
-  top:518rpx;
+  position:fixed;
+  height:calc(100% - 566rpx);
 }
 .scrollView .introduce {
   margin: 48rpx 30rpx 0 30rpx;
@@ -70,5 +72,5 @@
   border-radius: 4rpx; 
 }
 .footer {
-  padding-bottom: 44rpx;
+  margin-bottom: 100rpx!important;
 }

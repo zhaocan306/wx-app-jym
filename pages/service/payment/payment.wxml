@@ -1,17 +1,11 @@
 <!-- 自定义顶部栏 -->
-<view class='cu-custom'>
-  <view class="cu-bar fixed" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
-      <text class='cuIcon-back bg-back'></text>
-    </navigator>
-    <view class='content text-white' style='top:{{StatusBar}}px;'>立即缴费</view>
-  </view>
-</view>
+<navbar isBack="{{true}}" bgColor="bg-back"><view slot="content" class='text-white'>立即缴费</view></navbar>
+
 <view class='payment'>
   <!-- 背景图 -->
   <image class='bg-payment' src='/images/svg/img_pay.jpg'></image>
   <view class='cu-payment' style='top:{{CustomBar}}px;'>
-    <text class='title'>水费</text>
+    <text class='title'>{{title}}</text>
     <view class='card'>
       <view class='form-group'>
         <image src='/images/svg/icon_service_company.svg'></image>
@@ -50,7 +44,7 @@
         </view>
       </view>
       <view class='form-footer'>
-        <button class='form-btn'>立即缴费</button>
+        <button class="footer-btn">立即缴费</button>
       </view>
     </view>
   </view>

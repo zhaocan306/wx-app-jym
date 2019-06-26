@@ -1,4 +1,3 @@
-// pages/service/clean/clean.js
 import { toast } from '../../../utils/util.js';
 Component({
   properties: {

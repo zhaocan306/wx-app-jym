@@ -7,8 +7,8 @@
   <!-- <view class='cart-btn'>去结算</view> -->
   <view class='cart-btn success' bindtap='Settlement'>结算</view>
 </view>
-<view class="car-detail {{!isCart?'hide':''}}">
-  <view class="mask" bindtap='onHideCart' catchtouchmove='touchMove'></view>
+<view class="car-detail {{!isCart?'hide':''}}" catchtouchmove='touchMove'>
+  <view class="mask" bindtap='onHideCart'></view>
   <view class="car-list {{!isCart?'':'translate-y'}}">
     <view class='car-tips'>还差2元免配送费，去凑单</view>
     <view class='title'>
@@ -24,9 +24,9 @@
         <view class='goods-list'>
           <text class='name'>统一冰红茶300ml</text>
           <view class='goods-price bg-reds'>
-            <text class='curr'>￥</text>
-            <text>3</text>
-            <text class='decimal'>.00</text>
+            <text class='curr-tf'>￥</text>
+            <text class='num-tt'>3</text>
+            <text class='num-tf'>.00</text>
           </view>
           <view class='car-btn'>
             <image src='/images/svg/ico_tuofeng_reduce.svg'></image>
@@ -40,9 +40,9 @@
         <view class='goods-list'>
           <text class='name'>统一冰红茶300ml</text>
           <view class='goods-price bg-reds'>
-            <text class='curr'>￥</text>
-            <text>3</text>
-            <text class='decimal'>.00</text>
+            <text class='curr-tf'>￥</text>
+            <text class='num-tt'>3</text>
+            <text class='num-tf'>.00</text>
           </view>
           <view class='car-btn'>
             <image src='/images/svg/ico_tuofeng_reduce.svg'></image>
@@ -55,8 +55,8 @@
     <view class='car-footer'>
       <text class='text'>配送费</text>
       <view class='goods-price bg-reds range'>
-        <text class='curr'>￥</text>
-        <text>1</text>
+          <text class='curr-tf'>￥</text>
+          <text class='num-tt'>1</text>
       </view>
     </view>
   </view>

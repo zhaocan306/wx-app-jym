@@ -1,3 +1,5 @@
+@import '/styles/animation.wxss';
+@import '/styles/common.wxss';
 /* 下面的结算弹窗 */
 .cart {
   width:690rpx;
@@ -84,6 +86,7 @@
   z-index: 1024;
   background: #fff;
   transition: .5s all;
+  animation: slide-bottom 0.15s;
 }
 .car-detail .car-list .car-tips {
   height: 52rpx;
@@ -184,4 +187,5 @@
 }
 .car-footer .range {
   width: auto!important;
+  min-width: 30rpx!important;
 }

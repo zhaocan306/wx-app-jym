@@ -3,21 +3,30 @@
 <!-- 标题提示 -->
 <view class='home-title'>
   <text class='title'>尊敬的客户下午好!</text>
-  <image src='/images/svg/ico_home_my.svg' bindtap='toMessage'></image>
+  <image class='img-ff' src='/images/svg/ico_home_my.svg' bindtap='toMessage'></image>
 </view>
 <!-- 地址栏 -->
 <view class='home-address'>
-  <image src='/images/svg/ico_location.svg'></image>
+  <image class='img-tf' src='/images/svg/ico_location.svg'></image>
   <text class='address'>德思勤城市广场A7栋1207室</text>
 </view>
 <!-- 轮播图 -->
-<swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="4000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#fff">
-  <swiper-item wx:for="{{img_urls}}" wx:key class="{{cardCur==index?'cur':''}}">
-    <view class="swiper-item" bindtap='toDetail'>
-      <image src="{{item}}" mode="aspectFill"></image>
-    </view>
-  </swiper-item>
-</swiper>
+<view class='swiper-container'>
+  <swiper class="card-swiper" circular="true" autoplay="true" interval="4000" duration="500" easing-function="linear" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#fff">
+    <block wx:for="{{img_urls}}" wx:key>
+      <swiper-item class="{{cardCur==index?'cur':''}}">
+        <view class="swiper-item" bindtap='toDetail'>
+          <image class='swiper-img' src="{{item}}" mode="aspectFill"></image>
+        </view>
+      </swiper-item>
+      </block>
+  </swiper>
+  <view class="dots">
+    <block wx:for="{{img_urls}}" wx:key>
+      <view class="dot {{cardCur==index?'dot-active':''}}"></view>
+    </block>
+  </view>
+</view>
 <!-- 优惠活动 -->
 <view class='active'>
   <label class='la-name'>优惠活动</label>

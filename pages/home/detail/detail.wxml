@@ -3,11 +3,18 @@
 
 <view class='detail-img'>
   <!-- 轮播图 -->
-  <swiper class='detail-swiper' indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+<view class='swiper-container detail'>
+  <swiper class='detail-swiper' circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper">
     <swiper-item wx:for="{{swiperList}}" wx:key>
       <image class='' src="{{item}}" mode="aspectFill"></image>
     </swiper-item>
   </swiper>
+  <view class="dots">
+    <block wx:for="{{swiperList}}" wx:key>
+      <view class="dot {{cardCur==index?'dot-active':''}}"></view>
+    </block>
+  </view>
+</view> 
   <!-- 酒店介绍 -->
   <scroll-view class='scrollView' scroll-y>
     <view class='introduce'>

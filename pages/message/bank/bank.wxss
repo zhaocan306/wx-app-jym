@@ -11,6 +11,7 @@
   border-radius: 16rpx;
   margin: 24rpx 30rpx 0 30rpx;
   padding: 40rpx 32rpx;
+  transition: all .2s;
 }
 .bank .navbar {
   display: flex;
@@ -62,4 +63,29 @@
   font-size: 36rpx;
   color: #0099FF;
   padding-left: 24rpx;
+}
+.bank .move-cur {
+  border-radius: 0!important;
+	transform: translateX(-196rpx);
+  transition: all .2s;
+}
+.bank .move {
+  position: absolute;
+  top: 0;
+	right: 0;
+	display: flex;
+	width: 196rpx;
+	height: 100%;
+  transition: all .2s;
+	transform: translateX(100%);
+}
+.move .delete {
+  width: 196rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FF9500;
+  color: #fff;
+  border-radius: 0 16rpx 16rpx 0;
 }

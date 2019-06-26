@@ -1,35 +1,13 @@
-/* pages/shop/detail/detail.wxss */
-.goods-price {
-  font-family: DINAlternate-Bold;
-  font-size: 32rpx;
-  color: #151515;
-  letter-spacing:-7rpx;
-  width:96rpx;
-  display: flex;
-  align-items: center;
-}
-.curr {
-  font-size: 24rpx!important;
-  letter-spacing: -6rpx;
-}
-.decimal {
-  font-size: 24rpx!important;
-  letter-spacing: -1rpx;
-}
-.member {
-  color: #FF0004!important;
-  width:auto!important;
-  flex:1;
-}
 .vip {
   width: 64rpx;
   height: 32rpx;
   margin-left: 12rpx;
 }
 .detail {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
+  top: 0;
 }
 .detail .detail-swiper {
   min-height: 714rpx;
@@ -58,11 +36,14 @@
   display: block;
   padding-bottom: 16rpx;
 }
+.detail-member {
+  flex: 1;
+  padding-left: 40rpx;
+}
 .detail .detail-list .price {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top:20rpx;
 }
 .goods-change {
   width:84rpx;

@@ -1,12 +1,5 @@
 <!-- 自定义顶部栏 -->
-<view class='cu-custom'>
-  <view class="cu-bar fixed" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
-      <text class='cuIcon-back bg-back'></text>
-    </navigator>
-    <view class='content text-white' style='top:{{StatusBar}}px;'>确认订单</view>
-  </view>
-</view>
+<navbar isBack="{{true}}" bgColor="bg-back"><view class='text-white' slot="content">确认订单</view></navbar>
 <!-- 蓝色背景 -->
 <view class='bg-order'></view>
 <!-- 内容 -->
@@ -32,12 +25,12 @@
         <text class='name range'>统一冰红茶300ml</text>
         <text class='name'>X1</text>
         <view class='goods-price good-color'>
-          <text class='curr'>￥</text>
-          <text>3.0</text>
+          <text class='curr-tf'>￥</text>
+            <text class='num-tt'>3.0</text>
         </view>
-        <view class='goods-price bg-reds'>
-          <text class='curr'>￥</text>
-          <text>2.7</text>
+        <view class='goods-price member'>
+          <text class='curr-tf'>￥</text>
+          <text class='num-tt'>2.7</text>
         </view>
       </view>
     </view>
@@ -47,12 +40,12 @@
         <text class='name range'>统一冰红茶300ml</text>
         <text class='name'>X1</text>
         <view class='goods-price good-color'>
-          <text class='curr'>￥</text>
-          <text>3.0</text>
+          <text class='curr-tf'>￥</text>
+            <text class='num-tt'>3.0</text>
         </view>
-        <view class='goods-price bg-reds'>
-          <text class='curr'>￥</text>
-          <text>2.7</text>
+        <view class='goods-price member'>
+          <text class='curr-tf'>￥</text>
+          <text class='num-tt'>2.7</text>
         </view>
       </view>
     </view>
@@ -60,16 +53,16 @@
     <view class='delivery'>
       <text class='name'>配送费</text>
       <view class='goods-price bg-reds item'>
-        <text class='curr'>￥</text>
-        <text>1</text>
+        <text class='curr-tf'>￥</text>
+        <text class='num-tt'>1</text>
       </view>
     </view>
     <!-- 优惠券 -->
     <view class='delivery'>
       <text class='name'>优惠券</text>
       <view class='goods-price bg-reds item'>
-        <text class='curr'>￥</text>
-        <text>1</text>
+        <text class='curr-tf'>￥</text>
+        <text class='num-tt'>1</text>
       </view>
     </view>
     <!-- 备注 -->
@@ -90,7 +83,7 @@
     <view class='footer'>
       <view class='goods-price'>
         <text class='name'>小计</text>
-        <text class='curr range'>￥</text>
+        <text class='curr-tf range'>￥</text>
         <text class='price'>13.7</text>
       </view>
     </view>

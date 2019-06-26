@@ -1,9 +1,14 @@
-<!--index.wxml-->
+<!-- 首页 -->
 <Home id="homes" wx:if="{{ PageCur == 'home'}}" bind:message="toMessage"/>
+<!-- 服务 -->
 <Service id="services" wx:if="{{ PageCur == 'service'}}"/>
+<!-- 超市 -->
 <Shop id="shops" wx:if="{{ PageCur == 'shop'}}"/>
+<!-- 订单 -->
 <Order id="orders" wx:if="{{ PageCur == 'order'}}"/>
+<!-- 我的 -->
 <Message id="messages" wx:if="{{ PageCur == 'message'}}"/>
+<!-- 自定义tabbar -->
 <view class="cu-bar tabbar bg-white tabbar-list">
     <view class="action tabbar-border" bindtap="NavChange" data-cur="home">
       <view class='cuIcon-cu-image'>
